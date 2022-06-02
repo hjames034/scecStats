@@ -10,7 +10,7 @@
     
         steps:
           - name: checkout repo content
-            uses: actions/checkout@v2 # checkout the repository content to github runner.
+            uses: actions/checkout@v3 # checkout the repository content to github runner.
           - name: setup python
             uses: actions/setup-python@v2
             with:
@@ -21,5 +21,14 @@
           - name: execute py script # run the run.py to get the latest data
             run: |
               python run.py
-            env:
-              key: ${{ secrets.key }} # if run.py requires passwords..etc, set it as secrets
+          - name: Modifiy the specific files using action
+            uses: action-owner/action-repo@ref
+          - name: Commit and push changes
+            run: |
+                git config --global user.name "hjames034"
+                git config --global user.email "hjames034@gmail.com"
+
+                git add -A
+                git commit -m "updated text"
+                git push
+          
