@@ -9,7 +9,10 @@ import re
 import pandas as pd
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
-from webdriver_manager.core.utils import ChromeType
+from webdriver_manager.utils import ChromeType
+from datetime import date
+
+today = date.today()
 
 driver_path = ChromeDriverManager(chrome_type=ChromeType.CHROMIUM).install()
 chrome_options = Options()
@@ -76,15 +79,15 @@ retStr = df.to_csv(index=False)
 r=open('testStat.csv','w',encoding="utf-8")
 r.write(retStr)
 r.close()
-with open('outputData.csv', 'w') as csv_file:
+with open('outputData.csv', 'a') as csv_file:
     csvwriter = csv.writer(csv_file, delimiter=',')
     for session in dictFind:
         #csvwriter.writerow([session] + list(dictFind[session].keys()))
         for item in dictFind[session]:
-            if 'Individuals/Families' in item:
-                csvwriter.writerow([session, 'Individuals/Families', dictFind[session][item]])
+            if 'Individuals' in item:
+                csvwriter.writerow([session, 'Individuals/Families', dictFind[session][item],today])
             else:
-                csvwriter.writerow([session, item, dictFind[session][item]])
+                csvwriter.writerow([session, item, dictFind[session][item],today])
 
 '''
 failedPage= {}
