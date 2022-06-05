@@ -8,10 +8,14 @@ import csv
 import re
 import pandas as pd
 from selenium.webdriver.chrome.options import Options
+from webdriver_manager.chrome import ChromeDriverManager
+from webdriver_manager.utils import ChromeType
+
+driver_path = ChromeDriverManager(chrome_type=ChromeType.CHROMIUM).install()
 chrome_options = Options()
 chrome_options.add_argument("--headless")
 # chrome_options.headless = True # also works
-browser = webdriver.Chrome(executable_path=r"C:\Users\junhu\Downloads\chromedriver_win32\chromedriver.exe",options=chrome_options)
+browser = webdriver.Chrome(driver_path,options=chrome_options)
 data = urllib.request.urlopen('https://www.shakeout.org')
 soup = BeautifulSoup(data,'html.parser')
 cenList=[]
