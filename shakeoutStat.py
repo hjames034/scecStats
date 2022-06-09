@@ -49,11 +49,15 @@ for region in cenList:
                 dictionaryReturn[tmp_list[0]].append(tmp_list[1])
                 dictFind[region][tmp_list[0]]=tmp_list[1]
                 colUnused.remove(tmp_list[0])
+            else:
+                dictFind[region][tmp_list[0]]=tmp_list[1]
         except:
             if len(tmp_list) > 1:
                 dictionaryReturn[tmp_list[0]]=[tmp_list[1]]
                 dictFind[region]={row:tmp_list[1]}
                 colUnused.remove(tmp_list[0])
+            else:
+                dictFind[region]={row:tmp_list[1]}
     try:
         if len(table) > 1:
             for cat in colUnused:
