@@ -89,8 +89,24 @@ retStr = df.to_csv(index=False)
 r=open('testStat.csv','w',encoding="utf-8")
 r.write(retStr)
 r.close()
+retStr = 'state,category,number,date'
+csvList = ['state','category','number','date']
+try:
+    with open('outputData-aggreg.csv','r') as reader:
+        if retStr in reader:
+            toWriteAg = False
+except:
+    pass
+try:
+    with open('outputData-commons.csv','r') as reader:
+        if retStr in reader:
+            toWriteCo = False
+except:
+    pass
 with open('outputData-aggreg.csv', 'a+') as csv_file:
     csvwriter = csv.writer(csv_file, delimiter=',')
+    if toWriteAg:
+        csvwriter.writerow(csvList)
     for session in catSpecific:
         #csvwriter.writerow([session] + list(dictFind[session].keys()))
         for item in catSpecific[session]:
@@ -101,6 +117,8 @@ with open('outputData-aggreg.csv', 'a+') as csv_file:
 
 with open('outputData-commons.csv', 'a+') as csv_file:
     csvwriter = csv.writer(csv_file, delimiter=',')
+    if toWriteCo:
+        csvwriter.writerow(csvList)
     for session in dictFind:
         #csvwriter.writerow([session] + list(dictFind[session].keys()))
         for item in dictFind[session]:
