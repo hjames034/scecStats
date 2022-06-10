@@ -23,12 +23,13 @@ data = urllib.request.urlopen('https://www.shakeout.org')
 soup = BeautifulSoup(data,'html.parser')
 cenList=[]
 dictFind={}
+catSpecific={}
 for lister in soup.findAll("ul", {"id": "region_list"}):
     for link in lister.findAll("a"):
         url = link.get('href')
         cenList.append(url.split('/')[-2])
 print(len(cenList))
-cols = ["Individuals/Families","Childcare and Pre-Schools","K-12 Schools and Districts","Colleges and Universities","Local Government","State Government","Federal/National Government (Including Military)","Tribes/Indigenous Peoples","Businesses","Hotels and Other Lodgings","Healthcare","Senior Facilities/Communities","Disability/AFN Organizations","Non-Profit Organizations","Neighborhood Groups","Preparedness Organizations","Faith-based Organizations","Museums, Libraries, Parks, etc.","Volunteer/Service Clubs,Youth Organizations","Animal Shelter/Service Providers","Agriculture/Livestock Sector","Volunteer Radio Groups","Science/Engineering Organizations","Media Organizations","Other",'date'] # list of categories
+cols = ["Individuals/Families","individuals","Childcare and Pre-Schools","K-12 Schools and Districts","Colleges and Universities","Local Government","State Government","Federal/National Government (Including Military)","Tribes/Indigenous Peoples","Businesses","Hotels and Other Lodgings","Healthcare","Senior Facilities/Communities","Disability/AFN Organizations","Non-Profit Organizations","Neighborhood Groups","Preparedness Organizations","Faith-based Organizations","Museums, Libraries, Parks, etc.","Volunteer/Service Clubs,Youth Organizations","Animal Shelter/Service Providers","Agriculture/Livestock Sector","Volunteer Radio Groups","Science/Engineering Organizations","Media Organizations","Other",'date'] # list of categories
 dictionaryReturn = {}
 for region in cenList:
     browser.get('https://www.shakeout.org/'+region+'/participants.php?start=All')
@@ -47,14 +48,16 @@ for region in cenList:
         try:
             if len(tmp_list) > 1 and tmp_list[0] in cols:
                 dictionaryReturn[tmp_list[0]].append(tmp_list[1])
+                catSpecific[region][tmp_list[0]]=tmp_list[1]
                 dictFind[region][tmp_list[0]]=tmp_list[1]
                 colUnused.remove(tmp_list[0])
             else:
                 dictFind[region][tmp_list[0]]=tmp_list[1]
         except:
             try:
-                if len(tmp_list) > 1:
+                if len(tmp_list) > 1 and tmp_list[0] in cols:
                     dictionaryReturn[tmp_list[0]]=[tmp_list[1]]
+                    catSpecific[region]={tmp_list[0]]:tmp_list[1]}
                     dictFind[region]={row:tmp_list[1]}
                     #colUnused.remove(tmp_list[0])
                 else:
@@ -86,12 +89,22 @@ retStr = df.to_csv(index=False)
 r=open('testStat.csv','w',encoding="utf-8")
 r.write(retStr)
 r.close()
-with open('outputData.csv', 'a+') as csv_file:
+with open('outputData-aggreg.csv', 'a+') as csv_file:
+    csvwriter = csv.writer(csv_file, delimiter=',')
+    for session in catSpecific:
+        #csvwriter.writerow([session] + list(dictFind[session].keys()))
+        for item in catSpecific[session]:
+            if 'individuals' in item:
+                csvwriter.writerow([session, 'Individuals/Families', catSpecific[session][item],today])
+            else:
+                csvwriter.writerow([session, item, catSpecific[session][item],today])
+
+with open('outputData-commons.csv', 'a+') as csv_file:
     csvwriter = csv.writer(csv_file, delimiter=',')
     for session in dictFind:
         #csvwriter.writerow([session] + list(dictFind[session].keys()))
         for item in dictFind[session]:
-            if 'Individuals' in item:
+            if 'individuals' in item:
                 csvwriter.writerow([session, 'Individuals/Families', dictFind[session][item],today])
             else:
                 csvwriter.writerow([session, item, dictFind[session][item],today])
