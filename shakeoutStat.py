@@ -86,7 +86,7 @@ retStr = df.to_csv(index=False)
 r=open('testStat.csv','w',encoding="utf-8")
 r.write(retStr)
 r.close()
-with open('outputData.csv', 'a') as csv_file:
+with open('outputData.csv', 'a+') as csv_file:
     csvwriter = csv.writer(csv_file, delimiter=',')
     for session in dictFind:
         #csvwriter.writerow([session] + list(dictFind[session].keys()))
