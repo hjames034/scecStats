@@ -57,7 +57,7 @@ for region in cenList:
             try:
                 if len(tmp_list) > 1 and tmp_list[0] in cols:
                     dictionaryReturn[tmp_list[0]]=[tmp_list[1]]
-                    catSpecific[region]={tmp_list[0]]:tmp_list[1]}
+                    catSpecific[region]={tmp_list[0]:tmp_list[1]}
                     dictFind[region]={row:tmp_list[1]}
                     #colUnused.remove(tmp_list[0])
                 else:
