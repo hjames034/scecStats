@@ -91,6 +91,8 @@ r.write(retStr)
 r.close()
 retStr = 'state,category,number,date'
 csvList = ['state','category','number','date']
+toWriteAg=True
+toWriteCo=True
 try:
     with open('outputData-aggreg.csv','r') as reader:
         if retStr in reader:
