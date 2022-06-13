@@ -10,9 +10,9 @@ import pandas as pd
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.core.utils import ChromeType
-from datetime import date
+from datetime import date,timedelta,datetime
 
-today = date.today()
+today = (datetime.now() - timedelta(days = 1 )).date()
 
 driver_path = ChromeDriverManager(chrome_type=ChromeType.CHROMIUM).install()
 chrome_options = Options()
