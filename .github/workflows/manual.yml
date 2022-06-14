@@ -1,4 +1,4 @@
-    name: py
+    name: man
     
     on: workflow_dispatch
     jobs:
