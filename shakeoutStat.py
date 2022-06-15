@@ -71,7 +71,7 @@ for region in cenList:
                     #california[region]={tmp_list[0]:tmp_list[1]}
                 else:
                     if region == 'california' or region=='California':
-                        california[region]={tmp_list[0]:tmp_list[1]}
+                        california[region]={row:tmp_list[1]}
                     dictFind[region]={row:tmp_list[1]}
             except:
                 pass
