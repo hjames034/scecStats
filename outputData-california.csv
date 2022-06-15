@@ -1,2 +1,27 @@
 state,category,number,date
 california,Other (non-CA),500,2022-06-14
+state,category,number,date
+alaska,Other (non-AK),0,2022-06-14
+americansamoa,Youth Organizations,0,2022-06-14
+arizona,Other (non-AZ),0,2022-06-14
+california,Other (non-CA),500,2022-06-14
+centralus,Other (non-CUS),2,2022-06-14
+cnmi,Youth Organizations,0,2022-06-14
+colorado,Other (non-CO),0,2022-06-14
+guam,Other (non-Guam),0,2022-06-14
+hawaii,Other (non-HI),0,2022-06-14
+idaho,Other (non-ID),0,2022-06-14
+montana,Other (non-MT),0,2022-06-14
+nevada,Other (non-NV),0,2022-06-14
+newmexico,Other (non-NM),0,2022-06-14
+northeast,Other (outside of NorthEast),0,2022-06-14
+oregon,Other (non-OR),0,2022-06-14
+puertorico,Other (non-PR),0,2022-06-14
+southeast,Other (non-SouthEast),3,2022-06-14
+texas,Other (non-TX),0,2022-06-14
+uppermidwest,Wisconsin,0,2022-06-14
+usvi,Other (non-VI),0,2022-06-14
+utah,Other (non-UT),0,2022-06-14
+washington,Other (non-WA),0,2022-06-14
+wyoming,Other (non-WY),0,2022-06-14
+yukon,Youth Organizations,0,2022-06-14
