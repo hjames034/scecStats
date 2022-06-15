@@ -50,10 +50,13 @@ for region in cenList:
             if len(tmp_list) > 1 and tmp_list[0] in cols:
                 dictionaryReturn[tmp_list[0]].append(tmp_list[1])
                 catSpecific[region][tmp_list[0]]=tmp_list[1]
+                if region == 'california' or region=='California':
+                    california[region][tmp_list[0]]=tmp_list[1]
                 dictFind[region][tmp_list[0]]=tmp_list[1]
                 colUnused.remove(tmp_list[0])
             elif len(tmp_list_ > 1) and tmp_list[0] not in cols:
-                california[region][tmp_list[0]]=tmp_list[1]
+                pass
+                #california[region][tmp_list[0]]=tmp_list[1]
             else:
                 dictFind[region][tmp_list[0]]=tmp_list[1]
         except:
@@ -61,10 +64,13 @@ for region in cenList:
                 if len(tmp_list) > 1 and tmp_list[0] in cols:
                     dictionaryReturn[tmp_list[0]]=[tmp_list[1]]
                     catSpecific[region]={tmp_list[0]:tmp_list[1]}
+                    if region == 'california' or region=='California':
+                        california[region]={tmp_list[0]:tmp_list[1]}
                     dictFind[region]={row:tmp_list[1]}
                     #colUnused.remove(tmp_list[0])
                 elif len(tmp_list) > 1 and tmp_list[0] not in cols:
-                    california[region]={tmp_list[0]:tmp_list[1]}
+                    pass
+                    #california[region]={tmp_list[0]:tmp_list[1]}
                 else:
                     dictFind[region]={row:tmp_list[1]}
             except:
