@@ -31,6 +31,7 @@ for lister in soup.findAll("ul", {"id": "region_list"}):
 print(len(cenList))
 cols = ["Individuals/Families","individuals","Childcare and Pre-Schools","K-12 Schools and Districts","Colleges and Universities","Local Government","State Government","Federal/National Government (Including Military)","Tribes/Indigenous Peoples","Businesses","Hotels and Other Lodgings","Healthcare","Senior Facilities/Communities","Disability/AFN Organizations","Non-Profit Organizations","Neighborhood Groups","Preparedness Organizations","Faith-based Organizations","Museums, Libraries, Parks, etc.","Volunteer/Service Clubs,Youth Organizations","Animal Shelter/Service Providers","Agriculture/Livestock Sector","Volunteer Radio Groups","Science/Engineering Organizations","Media Organizations","Other",'date'] # list of categories
 dictionaryReturn = {}
+california={}
 for region in cenList:
     browser.get('https://www.shakeout.org/'+region+'/participants.php?start=All')
     html = browser.page_source
@@ -51,6 +52,8 @@ for region in cenList:
                 catSpecific[region][tmp_list[0]]=tmp_list[1]
                 dictFind[region][tmp_list[0]]=tmp_list[1]
                 colUnused.remove(tmp_list[0])
+            elif len(tmp_list_ > 1) and ('california' in region or "California" in region):
+                california[region][tmp_list[0]]=tmp_list[1]
             else:
                 dictFind[region][tmp_list[0]]=tmp_list[1]
         except:
@@ -60,6 +63,8 @@ for region in cenList:
                     catSpecific[region]={tmp_list[0]:tmp_list[1]}
                     dictFind[region]={row:tmp_list[1]}
                     #colUnused.remove(tmp_list[0])
+                elif len(tmp_list) > 1 and ('california' in region or "California" in region):
+                    california[region]={tmp_list[0]:tmp_list[1]}
                 else:
                     dictFind[region]={row:tmp_list[1]}
             except:
@@ -93,10 +98,17 @@ retStr = 'state,category,number,date'
 csvList = ['state','category','number','date']
 toWriteAg=True
 toWriteCo=True
+toWriteCa=True
 try:
     with open('outputData-aggreg.csv','r') as reader:
         if retStr in reader:
             toWriteAg = False
+except:
+    pass
+try:
+    with open('outputData-california.csv','r') as reader:
+        if retStr in reader:
+            toWriteCa = False
 except:
     pass
 try:
@@ -105,6 +117,18 @@ try:
             toWriteCo = False
 except:
     pass
+with open('outputData-california.csv', 'a+') as csv_file:
+    csvwriter = csv.writer(csv_file, delimiter=',')
+    if toWriteCa:
+        csvwriter.writerow(csvList)
+    for session in california:
+        #csvwriter.writerow([session] + list(dictFind[session].keys()))
+        for item in california[session]:
+            if 'individuals' in item:
+                csvwriter.writerow([session, 'Individuals/Families', california[session][item],today])
+            else:
+                csvwriter.writerow([session, item, california[session][item],today])
+
 with open('outputData-aggreg.csv', 'a+') as csv_file:
     csvwriter = csv.writer(csv_file, delimiter=',')
     if toWriteAg:
