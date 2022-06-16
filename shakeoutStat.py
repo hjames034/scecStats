@@ -39,6 +39,8 @@ for region in cenList:
     comments = soup.findAll(text=lambda text:isinstance(text, Comment))
     [comment.extract() for comment in comments]
     table = soup.findAll("tr")
+    if region == 'alaska':
+        print(table)
     if region == 'www.shakeoutbc.ca':
         print(table)
     colUnused = cols[:]
