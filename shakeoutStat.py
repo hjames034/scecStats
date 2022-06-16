@@ -50,7 +50,7 @@ for region in cenList:
             tmp_list.append(item.getText())
         try:
             if len(tmp_list) > 1 and tmp_list[0] in cols:
-                dictionaryReturn[tmp_list[0]].append(tmp_list[1])
+                #dictionaryReturn[tmp_list[0]].append(tmp_list[1])
                 catSpecific[region][tmp_list[0]]=tmp_list[1]
                 dictFind[region][tmp_list[0]]=tmp_list[1]
                 colUnused.remove(tmp_list[0])
@@ -61,7 +61,7 @@ for region in cenList:
         except:
             try:
                 if len(tmp_list) > 1 and tmp_list[0] in cols:
-                    dictionaryReturn[tmp_list[0]]=[tmp_list[1]]
+                    #dictionaryReturn[tmp_list[0]]=[tmp_list[1]]
                     catSpecific[region]={tmp_list[0]:tmp_list[1]}
                     dictFind[region]={row:tmp_list[1]}
                     #colUnused.remove(tmp_list[0])
@@ -71,7 +71,7 @@ for region in cenList:
                     dictFind[region]={row:tmp_list[1]}
             except:
                 pass
-    try:
+    '''try:
         if len(table) > 1:
             for cat in colUnused:
                 try:
@@ -95,7 +95,7 @@ df = pd.DataFrame(my_data)
 retStr = df.to_csv(index=False)
 r=open('testStat.csv','w',encoding="utf-8")
 r.write(retStr)
-r.close()
+r.close()'''
 retStr = 'state,category,number,date'
 csvList = ['state','category','number','date']
 toWriteAg=True
