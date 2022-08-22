@@ -6180,3 +6180,565 @@ yukon,Volunteer Radio Groups,0,2022-08-14
 yukon,Science/Engineering Organizations,0,2022-08-14
 yukon,Media Organizations,0,2022-08-14
 yukon,Other,0,2022-08-14
+state,category,number,date
+alaska,Individuals/Families,9,2022-08-21
+alaska,Childcare and Pre-Schools,141,2022-08-21
+alaska,K-12 Schools and Districts,"23,618",2022-08-21
+alaska,Colleges and Universities,750,2022-08-21
+alaska,Local Government,100,2022-08-21
+alaska,State Government,603,2022-08-21
+alaska,Federal/National Government (Including Military),"1,030",2022-08-21
+alaska,Tribes/Indigenous Peoples,100,2022-08-21
+alaska,Businesses,"1,557",2022-08-21
+alaska,Hotels and Other Lodgings,0,2022-08-21
+alaska,Healthcare,"3,780",2022-08-21
+alaska,Senior Facilities/Communities,15,2022-08-21
+alaska,Disability/AFN Organizations,60,2022-08-21
+alaska,Non-Profit Organizations,105,2022-08-21
+alaska,Neighborhood Groups,0,2022-08-21
+alaska,Preparedness Organizations,0,2022-08-21
+alaska,Faith-based Organizations,0,2022-08-21
+alaska,"Museums, Libraries, Parks, etc.",0,2022-08-21
+alaska,Animal Shelter/Service Providers,0,2022-08-21
+alaska,Agriculture/Livestock Sector,0,2022-08-21
+alaska,Volunteer Radio Groups,0,2022-08-21
+alaska,Science/Engineering Organizations,0,2022-08-21
+alaska,Media Organizations,0,2022-08-21
+alaska,Other,140,2022-08-21
+americansamoa,Individuals/Families,4,2022-08-21
+americansamoa,Childcare and Pre-Schools,0,2022-08-21
+americansamoa,K-12 Schools and Districts,0,2022-08-21
+americansamoa,Colleges and Universities,0,2022-08-21
+americansamoa,Local Government,235,2022-08-21
+americansamoa,State Government,0,2022-08-21
+americansamoa,Federal/National Government (Including Military),0,2022-08-21
+americansamoa,Tribes/Indigenous Peoples,0,2022-08-21
+americansamoa,Businesses,6,2022-08-21
+americansamoa,Hotels and Other Lodgings,0,2022-08-21
+americansamoa,Healthcare,0,2022-08-21
+americansamoa,Senior Facilities/Communities,0,2022-08-21
+americansamoa,Disability/AFN Organizations,0,2022-08-21
+americansamoa,Non-Profit Organizations,0,2022-08-21
+americansamoa,Neighborhood Groups,0,2022-08-21
+americansamoa,Preparedness Organizations,0,2022-08-21
+americansamoa,Faith-based Organizations,0,2022-08-21
+americansamoa,"Museums, Libraries, Parks, etc.",0,2022-08-21
+americansamoa,Animal Shelter/Service Providers,0,2022-08-21
+americansamoa,Agriculture/Livestock Sector,0,2022-08-21
+americansamoa,Volunteer Radio Groups,0,2022-08-21
+americansamoa,Science/Engineering Organizations,0,2022-08-21
+americansamoa,Media Organizations,0,2022-08-21
+americansamoa,Other,0,2022-08-21
+arizona,Individuals/Families,9,2022-08-21
+arizona,Childcare and Pre-Schools,0,2022-08-21
+arizona,K-12 Schools and Districts,"13,395",2022-08-21
+arizona,Colleges and Universities,0,2022-08-21
+arizona,Local Government,602,2022-08-21
+arizona,State Government,150,2022-08-21
+arizona,Federal/National Government (Including Military),0,2022-08-21
+arizona,Tribes/Indigenous Peoples,0,2022-08-21
+arizona,Businesses,380,2022-08-21
+arizona,Hotels and Other Lodgings,0,2022-08-21
+arizona,Healthcare,"1,104",2022-08-21
+arizona,Senior Facilities/Communities,0,2022-08-21
+arizona,Disability/AFN Organizations,0,2022-08-21
+arizona,Non-Profit Organizations,0,2022-08-21
+arizona,Neighborhood Groups,0,2022-08-21
+arizona,Preparedness Organizations,500,2022-08-21
+arizona,Faith-based Organizations,0,2022-08-21
+arizona,"Museums, Libraries, Parks, etc.",0,2022-08-21
+arizona,Animal Shelter/Service Providers,0,2022-08-21
+arizona,Agriculture/Livestock Sector,0,2022-08-21
+arizona,Volunteer Radio Groups,0,2022-08-21
+arizona,Science/Engineering Organizations,0,2022-08-21
+arizona,Media Organizations,0,2022-08-21
+arizona,Other,0,2022-08-21
+california,Individuals/Families,838,2022-08-21
+california,Childcare and Pre-Schools,"44,387",2022-08-21
+california,K-12 Schools and Districts,"4,904,399",2022-08-21
+california,Colleges and Universities,"1,434,408",2022-08-21
+california,Local Government,"573,472",2022-08-21
+california,State Government,"78,206",2022-08-21
+california,Federal/National Government (Including Military),"114,972",2022-08-21
+california,Businesses,"205,607",2022-08-21
+california,Hotels and Other Lodgings,"2,310",2022-08-21
+california,Healthcare,"154,707",2022-08-21
+california,Senior Facilities/Communities,"28,079",2022-08-21
+california,Disability/AFN Organizations,"3,834",2022-08-21
+california,Non-Profit Organizations,"33,646",2022-08-21
+california,Neighborhood Groups,"13,575",2022-08-21
+california,Preparedness Organizations,"1,723",2022-08-21
+california,Faith-based Organizations,"128,113",2022-08-21
+california,"Museums, Libraries, Parks, etc.","2,060",2022-08-21
+california,Animal Shelter/Service Providers,110,2022-08-21
+california,Agriculture/Livestock Sector,0,2022-08-21
+california,Volunteer Radio Groups,380,2022-08-21
+california,Science/Engineering Organizations,"1,007",2022-08-21
+california,Media Organizations,0,2022-08-21
+california,Other,"24,913",2022-08-21
+centralus,Individuals/Families,212,2022-08-21
+centralus,Childcare and Pre-Schools,"7,703",2022-08-21
+centralus,K-12 Schools and Districts,"828,900",2022-08-21
+centralus,Colleges and Universities,"51,908",2022-08-21
+centralus,Local Government,"22,658",2022-08-21
+centralus,State Government,"26,599",2022-08-21
+centralus,Federal/National Government (Including Military),"16,708",2022-08-21
+centralus,Tribes/Indigenous Peoples,"3,585",2022-08-21
+centralus,Businesses,"46,650",2022-08-21
+centralus,Hotels and Other Lodgings,0,2022-08-21
+centralus,Healthcare,"41,171",2022-08-21
+centralus,Senior Facilities/Communities,"2,531",2022-08-21
+centralus,Disability/AFN Organizations,707,2022-08-21
+centralus,Non-Profit Organizations,"3,084",2022-08-21
+centralus,Neighborhood Groups,0,2022-08-21
+centralus,Preparedness Organizations,316,2022-08-21
+centralus,Faith-based Organizations,"30,950",2022-08-21
+centralus,"Museums, Libraries, Parks, etc.",708,2022-08-21
+centralus,Animal Shelter/Service Providers,0,2022-08-21
+centralus,Agriculture/Livestock Sector,0,2022-08-21
+centralus,Volunteer Radio Groups,132,2022-08-21
+centralus,Science/Engineering Organizations,"3,520",2022-08-21
+centralus,Media Organizations,500,2022-08-21
+centralus,Other,"2,218",2022-08-21
+cnmi,Individuals/Families,0,2022-08-21
+cnmi,Childcare and Pre-Schools,0,2022-08-21
+cnmi,K-12 Schools and Districts,0,2022-08-21
+cnmi,Colleges and Universities,0,2022-08-21
+cnmi,Local Government,0,2022-08-21
+cnmi,State Government,0,2022-08-21
+cnmi,Federal/National Government (Including Military),0,2022-08-21
+cnmi,Businesses,0,2022-08-21
+cnmi,Hotels and Other Lodgings,0,2022-08-21
+cnmi,Healthcare,0,2022-08-21
+cnmi,Senior Facilities/Communities,0,2022-08-21
+cnmi,Disability/AFN Organizations,0,2022-08-21
+cnmi,Non-Profit Organizations,0,2022-08-21
+cnmi,Neighborhood Groups,0,2022-08-21
+cnmi,Preparedness Organizations,0,2022-08-21
+cnmi,Faith-based Organizations,0,2022-08-21
+cnmi,"Museums, Libraries, Parks, etc.",0,2022-08-21
+cnmi,Animal Shelter/Service Providers,0,2022-08-21
+cnmi,Agriculture/Livestock Sector,0,2022-08-21
+cnmi,Volunteer Radio Groups,0,2022-08-21
+cnmi,Science/Engineering Organizations,0,2022-08-21
+cnmi,Media Organizations,0,2022-08-21
+cnmi,Other,0,2022-08-21
+colorado,Individuals/Families,18,2022-08-21
+colorado,Childcare and Pre-Schools,0,2022-08-21
+colorado,K-12 Schools and Districts,0,2022-08-21
+colorado,Colleges and Universities,0,2022-08-21
+colorado,Local Government,0,2022-08-21
+colorado,State Government,0,2022-08-21
+colorado,Federal/National Government (Including Military),0,2022-08-21
+colorado,Tribes/Indigenous Peoples,0,2022-08-21
+colorado,Businesses,0,2022-08-21
+colorado,Hotels and Other Lodgings,0,2022-08-21
+colorado,Healthcare,809,2022-08-21
+colorado,Senior Facilities/Communities,0,2022-08-21
+colorado,Disability/AFN Organizations,0,2022-08-21
+colorado,Non-Profit Organizations,0,2022-08-21
+colorado,Neighborhood Groups,0,2022-08-21
+colorado,Preparedness Organizations,0,2022-08-21
+colorado,Faith-based Organizations,0,2022-08-21
+colorado,"Museums, Libraries, Parks, etc.",0,2022-08-21
+colorado,Animal Shelter/Service Providers,0,2022-08-21
+colorado,Agriculture/Livestock Sector,0,2022-08-21
+colorado,Volunteer Radio Groups,20,2022-08-21
+colorado,Science/Engineering Organizations,0,2022-08-21
+colorado,Media Organizations,0,2022-08-21
+colorado,Other,0,2022-08-21
+guam,Individuals/Families,12,2022-08-21
+guam,Childcare and Pre-Schools,332,2022-08-21
+guam,K-12 Schools and Districts,"10,249",2022-08-21
+guam,Colleges and Universities,"1,254",2022-08-21
+guam,Local Government,513,2022-08-21
+guam,Federal/National Government (Including Military),"4,620",2022-08-21
+guam,Businesses,610,2022-08-21
+guam,Hotels and Other Lodgings,0,2022-08-21
+guam,Healthcare,50,2022-08-21
+guam,Disability/AFN Organizations,0,2022-08-21
+guam,Non-Profit Organizations,500,2022-08-21
+guam,Neighborhood Groups,0,2022-08-21
+guam,Faith-based Organizations,0,2022-08-21
+guam,"Museums, Libraries, Parks, etc.",0,2022-08-21
+guam,Media Organizations,45,2022-08-21
+guam,Other,38,2022-08-21
+hawaii,Individuals/Families,7,2022-08-21
+hawaii,Childcare and Pre-Schools,0,2022-08-21
+hawaii,K-12 Schools and Districts,"11,083",2022-08-21
+hawaii,Colleges and Universities,0,2022-08-21
+hawaii,Local Government,0,2022-08-21
+hawaii,State Government,80,2022-08-21
+hawaii,Federal/National Government (Including Military),85,2022-08-21
+hawaii,Tribes/Indigenous Peoples,0,2022-08-21
+hawaii,Businesses,0,2022-08-21
+hawaii,Hotels and Other Lodgings,0,2022-08-21
+hawaii,Healthcare,0,2022-08-21
+hawaii,Senior Facilities/Communities,15,2022-08-21
+hawaii,Disability/AFN Organizations,0,2022-08-21
+hawaii,Non-Profit Organizations,0,2022-08-21
+hawaii,Neighborhood Groups,0,2022-08-21
+hawaii,Preparedness Organizations,0,2022-08-21
+hawaii,Faith-based Organizations,0,2022-08-21
+hawaii,"Museums, Libraries, Parks, etc.",0,2022-08-21
+hawaii,Animal Shelter/Service Providers,0,2022-08-21
+hawaii,Agriculture/Livestock Sector,0,2022-08-21
+hawaii,Volunteer Radio Groups,0,2022-08-21
+hawaii,Science/Engineering Organizations,0,2022-08-21
+hawaii,Media Organizations,0,2022-08-21
+hawaii,Other,0,2022-08-21
+idaho,Individuals/Families,14,2022-08-21
+idaho,Childcare and Pre-Schools,45,2022-08-21
+idaho,K-12 Schools and Districts,"13,090",2022-08-21
+idaho,Colleges and Universities,0,2022-08-21
+idaho,Local Government,2,2022-08-21
+idaho,State Government,150,2022-08-21
+idaho,Federal/National Government (Including Military),75,2022-08-21
+idaho,Tribes/Indigenous Peoples,0,2022-08-21
+idaho,Businesses,40,2022-08-21
+idaho,Hotels and Other Lodgings,0,2022-08-21
+idaho,Healthcare,593,2022-08-21
+idaho,Senior Facilities/Communities,0,2022-08-21
+idaho,Disability/AFN Organizations,50,2022-08-21
+idaho,Non-Profit Organizations,400,2022-08-21
+idaho,Neighborhood Groups,0,2022-08-21
+idaho,Preparedness Organizations,0,2022-08-21
+idaho,Faith-based Organizations,0,2022-08-21
+idaho,"Museums, Libraries, Parks, etc.",0,2022-08-21
+idaho,Animal Shelter/Service Providers,0,2022-08-21
+idaho,Agriculture/Livestock Sector,0,2022-08-21
+idaho,Volunteer Radio Groups,0,2022-08-21
+idaho,Science/Engineering Organizations,0,2022-08-21
+idaho,Media Organizations,0,2022-08-21
+idaho,Other,0,2022-08-21
+montana,Individuals/Families,2,2022-08-21
+montana,Childcare and Pre-Schools,0,2022-08-21
+montana,K-12 Schools and Districts,"7,329",2022-08-21
+montana,Colleges and Universities,"3,425",2022-08-21
+montana,Local Government,0,2022-08-21
+montana,State Government,"6,238",2022-08-21
+montana,Federal/National Government (Including Military),18,2022-08-21
+montana,Tribes/Indigenous Peoples,0,2022-08-21
+montana,Businesses,"3,901",2022-08-21
+montana,Hotels and Other Lodgings,0,2022-08-21
+montana,Healthcare,"2,311",2022-08-21
+montana,Senior Facilities/Communities,50,2022-08-21
+montana,Disability/AFN Organizations,0,2022-08-21
+montana,Non-Profit Organizations,85,2022-08-21
+montana,Neighborhood Groups,0,2022-08-21
+montana,Preparedness Organizations,10,2022-08-21
+montana,Faith-based Organizations,0,2022-08-21
+montana,"Museums, Libraries, Parks, etc.",0,2022-08-21
+montana,Animal Shelter/Service Providers,0,2022-08-21
+montana,Agriculture/Livestock Sector,0,2022-08-21
+montana,Volunteer Radio Groups,0,2022-08-21
+montana,Science/Engineering Organizations,0,2022-08-21
+montana,Media Organizations,0,2022-08-21
+montana,Other,0,2022-08-21
+nevada,Individuals/Families,19,2022-08-21
+nevada,Childcare and Pre-Schools,382,2022-08-21
+nevada,K-12 Schools and Districts,"92,922",2022-08-21
+nevada,Colleges and Universities,"30,850",2022-08-21
+nevada,Local Government,"6,816",2022-08-21
+nevada,State Government,"1,088",2022-08-21
+nevada,Federal/National Government (Including Military),20,2022-08-21
+nevada,Tribes/Indigenous Peoples,100,2022-08-21
+nevada,Businesses,653,2022-08-21
+nevada,Hotels and Other Lodgings,200,2022-08-21
+nevada,Healthcare,"6,219",2022-08-21
+nevada,Senior Facilities/Communities,0,2022-08-21
+nevada,Disability/AFN Organizations,10,2022-08-21
+nevada,Non-Profit Organizations,4,2022-08-21
+nevada,Neighborhood Groups,0,2022-08-21
+nevada,Preparedness Organizations,25,2022-08-21
+nevada,Faith-based Organizations,0,2022-08-21
+nevada,"Museums, Libraries, Parks, etc.",0,2022-08-21
+nevada,Animal Shelter/Service Providers,0,2022-08-21
+nevada,Agriculture/Livestock Sector,0,2022-08-21
+nevada,Volunteer Radio Groups,10,2022-08-21
+nevada,Science/Engineering Organizations,10,2022-08-21
+nevada,Media Organizations,0,2022-08-21
+nevada,Other,60,2022-08-21
+newmexico,Individuals/Families,3,2022-08-21
+newmexico,Childcare and Pre-Schools,0,2022-08-21
+newmexico,K-12 Schools and Districts,131,2022-08-21
+newmexico,Colleges and Universities,0,2022-08-21
+newmexico,Local Government,"1,500",2022-08-21
+newmexico,State Government,70,2022-08-21
+newmexico,Federal/National Government (Including Military),0,2022-08-21
+newmexico,Tribes/Indigenous Peoples,0,2022-08-21
+newmexico,Businesses,0,2022-08-21
+newmexico,Hotels and Other Lodgings,0,2022-08-21
+newmexico,Healthcare,35,2022-08-21
+newmexico,Senior Facilities/Communities,0,2022-08-21
+newmexico,Disability/AFN Organizations,0,2022-08-21
+newmexico,Non-Profit Organizations,0,2022-08-21
+newmexico,Neighborhood Groups,0,2022-08-21
+newmexico,Preparedness Organizations,20,2022-08-21
+newmexico,Faith-based Organizations,0,2022-08-21
+newmexico,"Museums, Libraries, Parks, etc.",0,2022-08-21
+newmexico,Animal Shelter/Service Providers,0,2022-08-21
+newmexico,Agriculture/Livestock Sector,0,2022-08-21
+newmexico,Volunteer Radio Groups,0,2022-08-21
+newmexico,Science/Engineering Organizations,0,2022-08-21
+newmexico,Media Organizations,0,2022-08-21
+newmexico,Other,0,2022-08-21
+northeast,Individuals/Families,14,2022-08-21
+northeast,Childcare and Pre-Schools,960,2022-08-21
+northeast,K-12 Schools and Districts,"46,491",2022-08-21
+northeast,Colleges and Universities,653,2022-08-21
+northeast,Local Government,321,2022-08-21
+northeast,State Government,0,2022-08-21
+northeast,Federal/National Government (Including Military),"1,457",2022-08-21
+northeast,Tribes/Indigenous Peoples,0,2022-08-21
+northeast,Businesses,"2,897",2022-08-21
+northeast,Hotels and Other Lodgings,0,2022-08-21
+northeast,Healthcare,409,2022-08-21
+northeast,Senior Facilities/Communities,450,2022-08-21
+northeast,Disability/AFN Organizations,0,2022-08-21
+northeast,Non-Profit Organizations,155,2022-08-21
+northeast,Neighborhood Groups,0,2022-08-21
+northeast,Preparedness Organizations,"18,100",2022-08-21
+northeast,Faith-based Organizations,0,2022-08-21
+northeast,"Museums, Libraries, Parks, etc.",0,2022-08-21
+northeast,Animal Shelter/Service Providers,0,2022-08-21
+northeast,Agriculture/Livestock Sector,0,2022-08-21
+northeast,Volunteer Radio Groups,0,2022-08-21
+northeast,Science/Engineering Organizations,0,2022-08-21
+northeast,Media Organizations,0,2022-08-21
+northeast,Other,50,2022-08-21
+oregon,Individuals/Families,55,2022-08-21
+oregon,Childcare and Pre-Schools,"1,634",2022-08-21
+oregon,K-12 Schools and Districts,"77,494",2022-08-21
+oregon,Colleges and Universities,"14,480",2022-08-21
+oregon,Local Government,"13,274",2022-08-21
+oregon,State Government,"10,197",2022-08-21
+oregon,Federal/National Government (Including Military),356,2022-08-21
+oregon,Tribes/Indigenous Peoples,60,2022-08-21
+oregon,Businesses,"43,513",2022-08-21
+oregon,Hotels and Other Lodgings,0,2022-08-21
+oregon,Healthcare,"14,142",2022-08-21
+oregon,Senior Facilities/Communities,340,2022-08-21
+oregon,Disability/AFN Organizations,50,2022-08-21
+oregon,Non-Profit Organizations,"1,838",2022-08-21
+oregon,Neighborhood Groups,230,2022-08-21
+oregon,Preparedness Organizations,497,2022-08-21
+oregon,Faith-based Organizations,0,2022-08-21
+oregon,"Museums, Libraries, Parks, etc.",497,2022-08-21
+oregon,Animal Shelter/Service Providers,0,2022-08-21
+oregon,Agriculture/Livestock Sector,0,2022-08-21
+oregon,Volunteer Radio Groups,7,2022-08-21
+oregon,Science/Engineering Organizations,55,2022-08-21
+oregon,Media Organizations,"5,000",2022-08-21
+oregon,Other,"1,345",2022-08-21
+puertorico,Individuals/Families,91,2022-08-21
+puertorico,Childcare and Pre-Schools,"2,510",2022-08-21
+puertorico,K-12 Schools and Districts,"8,069",2022-08-21
+puertorico,Colleges and Universities,"5,279",2022-08-21
+puertorico,Local Government,"2,650",2022-08-21
+puertorico,State Government,"1,704",2022-08-21
+puertorico,Federal/National Government (Including Military),325,2022-08-21
+puertorico,Businesses,"1,984",2022-08-21
+puertorico,Hotels and Other Lodgings,45,2022-08-21
+puertorico,Healthcare,"3,729",2022-08-21
+puertorico,Senior Facilities/Communities,462,2022-08-21
+puertorico,Disability/AFN Organizations,100,2022-08-21
+puertorico,Non-Profit Organizations,"1,308",2022-08-21
+puertorico,Neighborhood Groups,187,2022-08-21
+puertorico,Preparedness Organizations,100,2022-08-21
+puertorico,Faith-based Organizations,50,2022-08-21
+puertorico,"Museums, Libraries, Parks, etc.",10,2022-08-21
+puertorico,Animal Shelter/Service Providers,0,2022-08-21
+puertorico,Agriculture/Livestock Sector,150,2022-08-21
+puertorico,Volunteer Radio Groups,140,2022-08-21
+puertorico,Science/Engineering Organizations,0,2022-08-21
+puertorico,Media Organizations,0,2022-08-21
+puertorico,Other,"2,144",2022-08-21
+southeast,Individuals/Families,344,2022-08-21
+southeast,Childcare and Pre-Schools,"2,768",2022-08-21
+southeast,K-12 Schools and Districts,"902,537",2022-08-21
+southeast,Colleges and Universities,"39,902",2022-08-21
+southeast,Local Government,"39,983",2022-08-21
+southeast,State Government,"16,243",2022-08-21
+southeast,Federal/National Government (Including Military),"44,192",2022-08-21
+southeast,Tribes/Indigenous Peoples,0,2022-08-21
+southeast,Businesses,"2,820",2022-08-21
+southeast,Hotels and Other Lodgings,0,2022-08-21
+southeast,Healthcare,"49,393",2022-08-21
+southeast,Senior Facilities/Communities,"1,607",2022-08-21
+southeast,Disability/AFN Organizations,294,2022-08-21
+southeast,Non-Profit Organizations,"1,140",2022-08-21
+southeast,Neighborhood Groups,150,2022-08-21
+southeast,Preparedness Organizations,525,2022-08-21
+southeast,Faith-based Organizations,20,2022-08-21
+southeast,"Museums, Libraries, Parks, etc.",150,2022-08-21
+southeast,Animal Shelter/Service Providers,0,2022-08-21
+southeast,Agriculture/Livestock Sector,0,2022-08-21
+southeast,Volunteer Radio Groups,0,2022-08-21
+southeast,Science/Engineering Organizations,0,2022-08-21
+southeast,Media Organizations,20,2022-08-21
+southeast,Other,45,2022-08-21
+texas,Individuals/Families,2,2022-08-21
+texas,Childcare and Pre-Schools,0,2022-08-21
+texas,K-12 Schools and Districts,0,2022-08-21
+texas,Colleges and Universities,91,2022-08-21
+texas,Local Government,0,2022-08-21
+texas,State Government,0,2022-08-21
+texas,Federal/National Government (Including Military),150,2022-08-21
+texas,Tribes/Indigenous Peoples,0,2022-08-21
+texas,Businesses,200,2022-08-21
+texas,Hotels and Other Lodgings,12,2022-08-21
+texas,Healthcare,169,2022-08-21
+texas,Senior Facilities/Communities,0,2022-08-21
+texas,Disability/AFN Organizations,0,2022-08-21
+texas,Non-Profit Organizations,0,2022-08-21
+texas,Neighborhood Groups,0,2022-08-21
+texas,Preparedness Organizations,0,2022-08-21
+texas,Faith-based Organizations,0,2022-08-21
+texas,"Museums, Libraries, Parks, etc.",0,2022-08-21
+texas,Animal Shelter/Service Providers,0,2022-08-21
+texas,Agriculture/Livestock Sector,0,2022-08-21
+texas,Volunteer Radio Groups,0,2022-08-21
+texas,Science/Engineering Organizations,0,2022-08-21
+texas,Media Organizations,0,2022-08-21
+texas,Other,0,2022-08-21
+uppermidwest,Individuals/Families,0,2022-08-21
+uppermidwest,Childcare and Pre-Schools,0,2022-08-21
+uppermidwest,K-12 Schools and Districts,0,2022-08-21
+uppermidwest,Colleges and Universities,0,2022-08-21
+uppermidwest,Local Government,0,2022-08-21
+uppermidwest,State Government,0,2022-08-21
+uppermidwest,Federal/National Government (Including Military),0,2022-08-21
+uppermidwest,Tribes/Indigenous Peoples,0,2022-08-21
+uppermidwest,Businesses,0,2022-08-21
+uppermidwest,Hotels and Other Lodgings,0,2022-08-21
+uppermidwest,Healthcare,0,2022-08-21
+uppermidwest,Senior Facilities/Communities,0,2022-08-21
+uppermidwest,Disability/AFN Organizations,0,2022-08-21
+uppermidwest,Non-Profit Organizations,0,2022-08-21
+uppermidwest,Neighborhood Groups,0,2022-08-21
+uppermidwest,Preparedness Organizations,0,2022-08-21
+uppermidwest,Faith-based Organizations,0,2022-08-21
+uppermidwest,"Museums, Libraries, Parks, etc.",0,2022-08-21
+uppermidwest,Animal Shelter/Service Providers,0,2022-08-21
+uppermidwest,Agriculture/Livestock Sector,0,2022-08-21
+uppermidwest,Volunteer Radio Groups,0,2022-08-21
+uppermidwest,Science/Engineering Organizations,0,2022-08-21
+uppermidwest,Media Organizations,0,2022-08-21
+uppermidwest,Other,0,2022-08-21
+usvi,Individuals/Families,0,2022-08-21
+usvi,Childcare and Pre-Schools,210,2022-08-21
+usvi,K-12 Schools and Districts,0,2022-08-21
+usvi,Colleges and Universities,0,2022-08-21
+usvi,Local Government,90,2022-08-21
+usvi,State Government,0,2022-08-21
+usvi,Federal/National Government (Including Military),0,2022-08-21
+usvi,Businesses,0,2022-08-21
+usvi,Hotels and Other Lodgings,0,2022-08-21
+usvi,Healthcare,8,2022-08-21
+usvi,Senior Facilities/Communities,0,2022-08-21
+usvi,Disability/AFN Organizations,0,2022-08-21
+usvi,Non-Profit Organizations,32,2022-08-21
+usvi,Neighborhood Groups,0,2022-08-21
+usvi,Preparedness Organizations,0,2022-08-21
+usvi,Faith-based Organizations,0,2022-08-21
+usvi,"Museums, Libraries, Parks, etc.",0,2022-08-21
+usvi,Animal Shelter/Service Providers,0,2022-08-21
+usvi,Agriculture/Livestock Sector,0,2022-08-21
+usvi,Volunteer Radio Groups,0,2022-08-21
+usvi,Science/Engineering Organizations,0,2022-08-21
+usvi,Media Organizations,0,2022-08-21
+usvi,Other,0,2022-08-21
+utah,Individuals/Families,"2,136",2022-08-21
+utah,Childcare and Pre-Schools,"8,913",2022-08-21
+utah,K-12 Schools and Districts,"624,254",2022-08-21
+utah,Colleges and Universities,"143,052",2022-08-21
+utah,Local Government,"18,298",2022-08-21
+utah,State Government,"21,361",2022-08-21
+utah,Federal/National Government (Including Military),219,2022-08-21
+utah,Tribes/Indigenous Peoples,25,2022-08-21
+utah,Businesses,"21,945",2022-08-21
+utah,Hotels and Other Lodgings,0,2022-08-21
+utah,Healthcare,"14,441",2022-08-21
+utah,Senior Facilities/Communities,"3,792",2022-08-21
+utah,Disability/AFN Organizations,591,2022-08-21
+utah,Non-Profit Organizations,"4,643",2022-08-21
+utah,Neighborhood Groups,"2,955",2022-08-21
+utah,Preparedness Organizations,766,2022-08-21
+utah,Faith-based Organizations,"14,542",2022-08-21
+utah,"Museums, Libraries, Parks, etc.",90,2022-08-21
+utah,Animal Shelter/Service Providers,0,2022-08-21
+utah,Agriculture/Livestock Sector,0,2022-08-21
+utah,Volunteer Radio Groups,513,2022-08-21
+utah,Science/Engineering Organizations,156,2022-08-21
+utah,Media Organizations,230,2022-08-21
+utah,Other,982,2022-08-21
+washington,Individuals/Families,151,2022-08-21
+washington,Childcare and Pre-Schools,"3,838",2022-08-21
+washington,K-12 Schools and Districts,"307,109",2022-08-21
+washington,Colleges and Universities,"22,734",2022-08-21
+washington,Local Government,"17,303",2022-08-21
+washington,State Government,"15,575",2022-08-21
+washington,Federal/National Government (Including Military),"36,040",2022-08-21
+washington,Tribes/Indigenous Peoples,"1,340",2022-08-21
+washington,Businesses,"16,159",2022-08-21
+washington,Hotels and Other Lodgings,0,2022-08-21
+washington,Healthcare,"75,003",2022-08-21
+washington,Senior Facilities/Communities,"2,749",2022-08-21
+washington,Disability/AFN Organizations,8,2022-08-21
+washington,Non-Profit Organizations,"1,933",2022-08-21
+washington,Neighborhood Groups,380,2022-08-21
+washington,Preparedness Organizations,440,2022-08-21
+washington,Faith-based Organizations,256,2022-08-21
+washington,"Museums, Libraries, Parks, etc.",547,2022-08-21
+washington,Animal Shelter/Service Providers,0,2022-08-21
+washington,Agriculture/Livestock Sector,150,2022-08-21
+washington,Volunteer Radio Groups,91,2022-08-21
+washington,Science/Engineering Organizations,636,2022-08-21
+washington,Media Organizations,0,2022-08-21
+washington,Other,682,2022-08-21
+wyoming,Individuals/Families,0,2022-08-21
+wyoming,Childcare and Pre-Schools,372,2022-08-21
+wyoming,K-12 Schools and Districts,642,2022-08-21
+wyoming,Colleges and Universities,0,2022-08-21
+wyoming,Local Government,20,2022-08-21
+wyoming,State Government,100,2022-08-21
+wyoming,Federal/National Government (Including Military),0,2022-08-21
+wyoming,Tribes/Indigenous Peoples,0,2022-08-21
+wyoming,Businesses,12,2022-08-21
+wyoming,Hotels and Other Lodgings,0,2022-08-21
+wyoming,Healthcare,500,2022-08-21
+wyoming,Senior Facilities/Communities,0,2022-08-21
+wyoming,Disability/AFN Organizations,0,2022-08-21
+wyoming,Non-Profit Organizations,20,2022-08-21
+wyoming,Neighborhood Groups,0,2022-08-21
+wyoming,Preparedness Organizations,0,2022-08-21
+wyoming,Faith-based Organizations,0,2022-08-21
+wyoming,"Museums, Libraries, Parks, etc.",0,2022-08-21
+wyoming,Animal Shelter/Service Providers,0,2022-08-21
+wyoming,Agriculture/Livestock Sector,0,2022-08-21
+wyoming,Volunteer Radio Groups,0,2022-08-21
+wyoming,Science/Engineering Organizations,0,2022-08-21
+wyoming,Media Organizations,0,2022-08-21
+wyoming,Other,0,2022-08-21
+yukon,Individuals/Families,0,2022-08-21
+yukon,Childcare and Pre-Schools,0,2022-08-21
+yukon,K-12 Schools and Districts,0,2022-08-21
+yukon,Colleges and Universities,0,2022-08-21
+yukon,Local Government,90,2022-08-21
+yukon,Federal/National Government (Including Military),0,2022-08-21
+yukon,Businesses,0,2022-08-21
+yukon,Hotels and Other Lodgings,0,2022-08-21
+yukon,Healthcare,0,2022-08-21
+yukon,Senior Facilities/Communities,0,2022-08-21
+yukon,Disability/AFN Organizations,0,2022-08-21
+yukon,Non-Profit Organizations,0,2022-08-21
+yukon,Preparedness Organizations,0,2022-08-21
+yukon,Faith-based Organizations,0,2022-08-21
+yukon,"Museums, Libraries, Parks, etc.",0,2022-08-21
+yukon,Animal Shelter/Service Providers,0,2022-08-21
+yukon,Agriculture/Livestock Sector,0,2022-08-21
+yukon,Volunteer Radio Groups,0,2022-08-21
+yukon,Science/Engineering Organizations,0,2022-08-21
+yukon,Media Organizations,0,2022-08-21
+yukon,Other,0,2022-08-21
