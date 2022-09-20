@@ -14,7 +14,7 @@ from datetime import date,timedelta,datetime
 
 today = (datetime.now() - timedelta(days = 1 )).date()
 
-driver_path = ChromeDriverManager(version=105.0.5195.52).install()
+driver_path = ChromeDriverManager(chrome_type=ChromeType.CHROMIUM,version="105.0.5195.52").install()
 chrome_options = Options()
 chrome_options.add_argument("--headless")
 # chrome_options.headless = True # also works
