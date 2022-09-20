@@ -13,16 +13,12 @@
             with:
               python-version: 3.8 #install the python needed
           - name: Setup Chrome
-            uses: browser-actions/setup-chrome@v0.0.0
+            uses: browser-actions/setup-chrome@latest
+          - name: get most recent version of chrome
+            run: chrome --latest
           - name: install required module
             run: |
               pip install -r requirements.txt
-          - name: chrome-check
-            run: |
-                CHROMIUM_VERSION=$(/usr/bin/chromium --version | awk '{print $2}')
-                echo "CHROMIUM_VERSION=$CHROMIUM_VERSION" >> $GITHUB_ENV
-                webdriver-manager update --versions.chrome $CHROMIUM_VERSION
-                webdriver-manager start --versions.chrome $CHROMIUM_VERSION &
           - name: execute py script # run the run.py to get the latest data
             run: |
               python shakeoutStat.py
