@@ -1973,3 +1973,82 @@ california,San Diego,"817,567",2022-11-20
 california,    San Diego,"817,567",2022-11-20
 california,Multiple Counties,"37,386",2022-11-20
 california,Other (non-CA),0,2022-11-20
+state,category,number,date
+california,"<tr><td align=""left""><b>Category</b></td><td align=""right"" width=""120""><b>Participants</b>
+</td></tr>","Participants
+",2022-11-27
+california,Tribes/Rancherias,"3,053",2022-11-27
+california,Volunteer/Service Clubs,"5,406",2022-11-27
+california,Youth Organizations,"3,457",2022-11-27
+california,"Participation totals for each 
+			area",Total,2022-11-27
+california,North Coast,"66,862",2022-11-27
+california,    Del Norte,"12,752",2022-11-27
+california,    Humboldt,"33,669",2022-11-27
+california,    Lake,"9,716",2022-11-27
+california,    Mendocino,"10,725",2022-11-27
+california,Shasta Cascade,"22,855",2022-11-27
+california,    Butte,"9,206",2022-11-27
+california,    Glenn,610,2022-11-27
+california,    Lassen,"2,061",2022-11-27
+california,    Modoc,99,2022-11-27
+california,    Plumas,970,2022-11-27
+california,    Shasta,"6,671",2022-11-27
+california,    Sierra,0,2022-11-27
+california,    Siskiyou,"2,026",2022-11-27
+california,    Tehama,985,2022-11-27
+california,    Trinity,227,2022-11-27
+california,Bay Area,"1,432,076",2022-11-27
+california,    Alameda,"362,350",2022-11-27
+california,    Contra Costa,"158,832",2022-11-27
+california,    Marin,"34,963",2022-11-27
+california,    Napa,"10,761",2022-11-27
+california,    San Francisco,"287,127",2022-11-27
+california,    San Mateo,"98,036",2022-11-27
+california,    Santa Clara,"345,749",2022-11-27
+california,    Solano,"56,903",2022-11-27
+california,    Sonoma,"77,355",2022-11-27
+california,Delta Sierra,"482,652",2022-11-27
+california,    Alpine,84,2022-11-27
+california,    Amador,"1,013",2022-11-27
+california,    Calaveras,"1,275",2022-11-27
+california,    Colusa,"1,149",2022-11-27
+california,    El Dorado,"8,116",2022-11-27
+california,    Nevada,"6,539",2022-11-27
+california,    Placer,"22,936",2022-11-27
+california,    Sacramento,"245,224",2022-11-27
+california,    San Joaquin,"56,915",2022-11-27
+california,    Stanislaus,"93,039",2022-11-27
+california,    Sutter,"1,620",2022-11-27
+california,    Tuolumne,"8,147",2022-11-27
+california,    Yolo,"25,137",2022-11-27
+california,    Yuba,"11,458",2022-11-27
+california,Inyo-Mono,"3,288",2022-11-27
+california,    Inyo,"2,363",2022-11-27
+california,    Mono,925,2022-11-27
+california,Central Valley South,"617,254",2022-11-27
+california,    Fresno,"182,376",2022-11-27
+california,    Kern,"261,854",2022-11-27
+california,    Kings,"9,374",2022-11-27
+california,    Madera,"28,918",2022-11-27
+california,    Mariposa,15,2022-11-27
+california,    Merced,"59,003",2022-11-27
+california,    Tulare,"75,714",2022-11-27
+california,Central Coast,"474,760",2022-11-27
+california,    Monterey,"111,954",2022-11-27
+california,    San Benito,"8,250",2022-11-27
+california,    San Luis Obispo,"25,595",2022-11-27
+california,    Santa Barbara,"118,566",2022-11-27
+california,    Santa Cruz,"77,906",2022-11-27
+california,    Ventura,"132,489",2022-11-27
+california,Southern California Coast,"4,198,817",2022-11-27
+california,    Los Angeles,"3,313,901",2022-11-27
+california,    Orange,"884,916",2022-11-27
+california,Inland Southern California,"1,439,151",2022-11-27
+california,    Imperial,"47,932",2022-11-27
+california,    Riverside,"662,320",2022-11-27
+california,    San Bernardino,"728,899",2022-11-27
+california,San Diego,"816,497",2022-11-27
+california,    San Diego,"816,497",2022-11-27
+california,Multiple Counties,"37,386",2022-11-27
+california,Other (non-CA),0,2022-11-27
