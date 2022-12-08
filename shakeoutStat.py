@@ -29,7 +29,7 @@ for lister in soup.findAll("ul", {"id": "region_list"}):
         url = link.get('href')
         cenList.append(url.split('/')[-2])
 print(len(cenList))
-cols = ["Individuals/Families","individuals","Childcare and Pre-Schools","K-12 Schools and Districts","Colleges and Universities","Local Government","State Government","Federal/National Government (Including Military)","Tribes/Indigenous Peoples","Businesses","Hotels and Other Lodgings","Healthcare","Senior Facilities/Communities","Disability/AFN Organizations","Non-Profit Organizations","Neighborhood Groups","Preparedness Organizations","Faith-based Organizations","Museums, Libraries, Parks, etc.","Volunteer/Service Clubs","Youth Organizations","Animal Shelter/Service Providers","Agriculture/Livestock Sector","Volunteer Radio Groups","Science/Engineering Organizations","Media Organizations","Other",'date'] # list of categories
+cols = ["Individuals/Families","individuals","Childcare and Pre-Schools","K-12 Schools and Districts","Colleges and Universities","Local Government","State Government","Federal/National Government (Including Military)","Tribes/Indigenous Peoples","Businesses","Hotels and Other Lodgings","Healthcare","Senior Facilities/Communities","Disability/AFN Organizations","Non-Profit Organizations","Neighborhood Groups","Preparedness Organizations","Faith-based Organizations","Museums, Libraries, Parks, etc.","Volunteer/Service Clubs","Youth Organizations","Animal Shelter/Service Providers","Agriculture/Livestock Sector","Volunteer Radio Groups","Science/Engineering Organizations","Media Organizations","Other","Tribes/Rancherias",'date'] # list of categories
 dictionaryReturn = {}
 california={}
 for region in cenList:
