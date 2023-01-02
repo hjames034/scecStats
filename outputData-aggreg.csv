@@ -18177,3 +18177,614 @@ yukon,Volunteer Radio Groups,0,2022-12-25
 yukon,Science/Engineering Organizations,0,2022-12-25
 yukon,Media Organizations,0,2022-12-25
 yukon,Other,0,2022-12-25
+state,category,number,date
+alaska,Individuals/Families,120,2023-01-01
+alaska,Childcare and Pre-Schools,320,2023-01-01
+alaska,K-12 Schools and Districts,"88,305",2023-01-01
+alaska,Colleges and Universities,"8,446",2023-01-01
+alaska,Local Government,517,2023-01-01
+alaska,State Government,"1,083",2023-01-01
+alaska,Federal/National Government (Including Military),793,2023-01-01
+alaska,Tribes/Indigenous Peoples,570,2023-01-01
+alaska,Businesses,"2,014",2023-01-01
+alaska,Hotels and Other Lodgings,0,2023-01-01
+alaska,Healthcare,"7,015",2023-01-01
+alaska,Senior Facilities/Communities,15,2023-01-01
+alaska,Disability/AFN Organizations,60,2023-01-01
+alaska,Non-Profit Organizations,938,2023-01-01
+alaska,Neighborhood Groups,0,2023-01-01
+alaska,Preparedness Organizations,0,2023-01-01
+alaska,Faith-based Organizations,0,2023-01-01
+alaska,"Museums, Libraries, Parks, etc.",6,2023-01-01
+alaska,Volunteer/Service Clubs,0,2023-01-01
+alaska,Youth Organizations,0,2023-01-01
+alaska,Animal Shelter/Service Providers,0,2023-01-01
+alaska,Agriculture/Livestock Sector,0,2023-01-01
+alaska,Volunteer Radio Groups,45,2023-01-01
+alaska,Science/Engineering Organizations,0,2023-01-01
+alaska,Media Organizations,25,2023-01-01
+alaska,Other,140,2023-01-01
+americansamoa,Individuals/Families,53,2023-01-01
+americansamoa,Childcare and Pre-Schools,0,2023-01-01
+americansamoa,K-12 Schools and Districts,"3,738",2023-01-01
+americansamoa,Colleges and Universities,0,2023-01-01
+americansamoa,Local Government,585,2023-01-01
+americansamoa,State Government,45,2023-01-01
+americansamoa,Federal/National Government (Including Military),14,2023-01-01
+americansamoa,Tribes/Indigenous Peoples,0,2023-01-01
+americansamoa,Businesses,6,2023-01-01
+americansamoa,Hotels and Other Lodgings,0,2023-01-01
+americansamoa,Healthcare,925,2023-01-01
+americansamoa,Senior Facilities/Communities,0,2023-01-01
+americansamoa,Disability/AFN Organizations,0,2023-01-01
+americansamoa,Non-Profit Organizations,101,2023-01-01
+americansamoa,Neighborhood Groups,0,2023-01-01
+americansamoa,Preparedness Organizations,0,2023-01-01
+americansamoa,Faith-based Organizations,230,2023-01-01
+americansamoa,"Museums, Libraries, Parks, etc.",0,2023-01-01
+americansamoa,Volunteer/Service Clubs,0,2023-01-01
+americansamoa,Youth Organizations,103,2023-01-01
+americansamoa,Animal Shelter/Service Providers,0,2023-01-01
+americansamoa,Agriculture/Livestock Sector,0,2023-01-01
+americansamoa,Volunteer Radio Groups,0,2023-01-01
+americansamoa,Science/Engineering Organizations,0,2023-01-01
+americansamoa,Media Organizations,0,2023-01-01
+americansamoa,Other,0,2023-01-01
+arizona,Individuals/Families,188,2023-01-01
+arizona,Childcare and Pre-Schools,65,2023-01-01
+arizona,K-12 Schools and Districts,"37,073",2023-01-01
+arizona,Colleges and Universities,"22,019",2023-01-01
+arizona,Local Government,804,2023-01-01
+arizona,State Government,870,2023-01-01
+arizona,Federal/National Government (Including Military),152,2023-01-01
+arizona,Tribes/Indigenous Peoples,520,2023-01-01
+arizona,Businesses,581,2023-01-01
+arizona,Hotels and Other Lodgings,0,2023-01-01
+arizona,Healthcare,"7,031",2023-01-01
+arizona,Senior Facilities/Communities,50,2023-01-01
+arizona,Disability/AFN Organizations,0,2023-01-01
+arizona,Non-Profit Organizations,262,2023-01-01
+arizona,Neighborhood Groups,0,2023-01-01
+arizona,Preparedness Organizations,536,2023-01-01
+arizona,Faith-based Organizations,0,2023-01-01
+arizona,"Museums, Libraries, Parks, etc.",148,2023-01-01
+arizona,Volunteer/Service Clubs,20,2023-01-01
+arizona,Youth Organizations,0,2023-01-01
+arizona,Animal Shelter/Service Providers,0,2023-01-01
+arizona,Agriculture/Livestock Sector,0,2023-01-01
+arizona,Volunteer Radio Groups,55,2023-01-01
+arizona,Science/Engineering Organizations,0,2023-01-01
+arizona,Media Organizations,0,2023-01-01
+arizona,Other,0,2023-01-01
+california,Individuals/Families,"7,249",2023-01-01
+california,Childcare and Pre-Schools,"91,463",2023-01-01
+california,K-12 Schools and Districts,"5,474,813",2023-01-01
+california,Colleges and Universities,"1,768,214",2023-01-01
+california,Local Government,"1,084,922",2023-01-01
+california,State Government,"93,874",2023-01-01
+california,Federal/National Government (Including Military),"139,242",2023-01-01
+california,Tribes/Rancherias,"3,053",2023-01-01
+california,Businesses,"337,390",2023-01-01
+california,Hotels and Other Lodgings,"4,643",2023-01-01
+california,Healthcare,"270,704",2023-01-01
+california,Senior Facilities/Communities,"48,391",2023-01-01
+california,Disability/AFN Organizations,"9,066",2023-01-01
+california,Non-Profit Organizations,"78,633",2023-01-01
+california,Neighborhood Groups,"18,637",2023-01-01
+california,Preparedness Organizations,"6,416",2023-01-01
+california,Faith-based Organizations,"130,009",2023-01-01
+california,"Museums, Libraries, Parks, etc.","5,549",2023-01-01
+california,Volunteer/Service Clubs,"5,406",2023-01-01
+california,Youth Organizations,"3,457",2023-01-01
+california,Animal Shelter/Service Providers,150,2023-01-01
+california,Agriculture/Livestock Sector,"1,350",2023-01-01
+california,Volunteer Radio Groups,"1,413",2023-01-01
+california,Science/Engineering Organizations,"4,675",2023-01-01
+california,Media Organizations,"1,277",2023-01-01
+california,Other,"1,096",2023-01-01
+centralus,Individuals/Families,"1,651",2023-01-01
+centralus,Childcare and Pre-Schools,"15,589",2023-01-01
+centralus,K-12 Schools and Districts,"1,763,235",2023-01-01
+centralus,Colleges and Universities,"88,891",2023-01-01
+centralus,Local Government,"45,134",2023-01-01
+centralus,State Government,"43,847",2023-01-01
+centralus,Federal/National Government (Including Military),"18,034",2023-01-01
+centralus,Tribes/Indigenous Peoples,"3,645",2023-01-01
+centralus,Businesses,"53,616",2023-01-01
+centralus,Hotels and Other Lodgings,0,2023-01-01
+centralus,Healthcare,"68,886",2023-01-01
+centralus,Senior Facilities/Communities,"7,405",2023-01-01
+centralus,Disability/AFN Organizations,"1,898",2023-01-01
+centralus,Non-Profit Organizations,"6,868",2023-01-01
+centralus,Neighborhood Groups,15,2023-01-01
+centralus,Preparedness Organizations,"1,698",2023-01-01
+centralus,Faith-based Organizations,"41,091",2023-01-01
+centralus,"Museums, Libraries, Parks, etc.","1,013",2023-01-01
+centralus,Volunteer/Service Clubs,"9,677",2023-01-01
+centralus,Youth Organizations,355,2023-01-01
+centralus,Animal Shelter/Service Providers,8,2023-01-01
+centralus,Agriculture/Livestock Sector,13,2023-01-01
+centralus,Volunteer Radio Groups,401,2023-01-01
+centralus,Science/Engineering Organizations,"3,540",2023-01-01
+centralus,Media Organizations,610,2023-01-01
+centralus,Other,"2,329",2023-01-01
+cnmi,Individuals/Families,8,2023-01-01
+cnmi,Childcare and Pre-Schools,153,2023-01-01
+cnmi,K-12 Schools and Districts,"13,267",2023-01-01
+cnmi,Colleges and Universities,0,2023-01-01
+cnmi,Local Government,354,2023-01-01
+cnmi,State Government,214,2023-01-01
+cnmi,Federal/National Government (Including Military),128,2023-01-01
+cnmi,Businesses,12,2023-01-01
+cnmi,Hotels and Other Lodgings,0,2023-01-01
+cnmi,Healthcare,10,2023-01-01
+cnmi,Senior Facilities/Communities,0,2023-01-01
+cnmi,Disability/AFN Organizations,0,2023-01-01
+cnmi,Non-Profit Organizations,50,2023-01-01
+cnmi,Neighborhood Groups,0,2023-01-01
+cnmi,Preparedness Organizations,0,2023-01-01
+cnmi,Faith-based Organizations,0,2023-01-01
+cnmi,"Museums, Libraries, Parks, etc.",0,2023-01-01
+cnmi,Volunteer/Service Clubs,0,2023-01-01
+cnmi,Youth Organizations,0,2023-01-01
+cnmi,Animal Shelter/Service Providers,0,2023-01-01
+cnmi,Agriculture/Livestock Sector,0,2023-01-01
+cnmi,Volunteer Radio Groups,0,2023-01-01
+cnmi,Science/Engineering Organizations,0,2023-01-01
+cnmi,Media Organizations,0,2023-01-01
+cnmi,Other,30,2023-01-01
+colorado,Individuals/Families,132,2023-01-01
+colorado,Childcare and Pre-Schools,46,2023-01-01
+colorado,K-12 Schools and Districts,381,2023-01-01
+colorado,Colleges and Universities,"7,187",2023-01-01
+colorado,Local Government,15,2023-01-01
+colorado,State Government,54,2023-01-01
+colorado,Federal/National Government (Including Military),226,2023-01-01
+colorado,Tribes/Indigenous Peoples,0,2023-01-01
+colorado,Businesses,3,2023-01-01
+colorado,Hotels and Other Lodgings,0,2023-01-01
+colorado,Healthcare,"1,275",2023-01-01
+colorado,Senior Facilities/Communities,92,2023-01-01
+colorado,Disability/AFN Organizations,0,2023-01-01
+colorado,Non-Profit Organizations,1,2023-01-01
+colorado,Neighborhood Groups,0,2023-01-01
+colorado,Preparedness Organizations,16,2023-01-01
+colorado,Faith-based Organizations,0,2023-01-01
+colorado,"Museums, Libraries, Parks, etc.",0,2023-01-01
+colorado,Volunteer/Service Clubs,20,2023-01-01
+colorado,Youth Organizations,0,2023-01-01
+colorado,Animal Shelter/Service Providers,0,2023-01-01
+colorado,Agriculture/Livestock Sector,0,2023-01-01
+colorado,Volunteer Radio Groups,20,2023-01-01
+colorado,Science/Engineering Organizations,50,2023-01-01
+colorado,Media Organizations,0,2023-01-01
+colorado,Other,215,2023-01-01
+guam,Individuals/Families,133,2023-01-01
+guam,Childcare and Pre-Schools,685,2023-01-01
+guam,K-12 Schools and Districts,"35,280",2023-01-01
+guam,Colleges and Universities,"1,476",2023-01-01
+guam,Local Government,848,2023-01-01
+guam,Federal/National Government (Including Military),"5,723",2023-01-01
+guam,Businesses,"1,779",2023-01-01
+guam,Hotels and Other Lodgings,500,2023-01-01
+guam,Healthcare,442,2023-01-01
+guam,Disability/AFN Organizations,0,2023-01-01
+guam,Non-Profit Organizations,97,2023-01-01
+guam,Neighborhood Groups,0,2023-01-01
+guam,Faith-based Organizations,0,2023-01-01
+guam,"Museums, Libraries, Parks, etc.",0,2023-01-01
+guam,Volunteer/Service Clubs,0,2023-01-01
+guam,Youth Organizations,0,2023-01-01
+guam,Media Organizations,87,2023-01-01
+guam,Other,97,2023-01-01
+hawaii,Individuals/Families,123,2023-01-01
+hawaii,Childcare and Pre-Schools,0,2023-01-01
+hawaii,K-12 Schools and Districts,"26,523",2023-01-01
+hawaii,Colleges and Universities,105,2023-01-01
+hawaii,Local Government,9,2023-01-01
+hawaii,State Government,229,2023-01-01
+hawaii,Federal/National Government (Including Military),"2,391",2023-01-01
+hawaii,Tribes/Indigenous Peoples,0,2023-01-01
+hawaii,Businesses,148,2023-01-01
+hawaii,Hotels and Other Lodgings,28,2023-01-01
+hawaii,Healthcare,805,2023-01-01
+hawaii,Senior Facilities/Communities,60,2023-01-01
+hawaii,Disability/AFN Organizations,30,2023-01-01
+hawaii,Non-Profit Organizations,322,2023-01-01
+hawaii,Neighborhood Groups,0,2023-01-01
+hawaii,Preparedness Organizations,2,2023-01-01
+hawaii,Faith-based Organizations,0,2023-01-01
+hawaii,"Museums, Libraries, Parks, etc.",95,2023-01-01
+hawaii,Volunteer/Service Clubs,0,2023-01-01
+hawaii,Youth Organizations,110,2023-01-01
+hawaii,Animal Shelter/Service Providers,0,2023-01-01
+hawaii,Agriculture/Livestock Sector,0,2023-01-01
+hawaii,Volunteer Radio Groups,90,2023-01-01
+hawaii,Science/Engineering Organizations,0,2023-01-01
+hawaii,Media Organizations,0,2023-01-01
+hawaii,Other,0,2023-01-01
+idaho,Individuals/Families,206,2023-01-01
+idaho,Childcare and Pre-Schools,45,2023-01-01
+idaho,K-12 Schools and Districts,"72,116",2023-01-01
+idaho,Colleges and Universities,46,2023-01-01
+idaho,Local Government,242,2023-01-01
+idaho,State Government,235,2023-01-01
+idaho,Federal/National Government (Including Military),90,2023-01-01
+idaho,Tribes/Indigenous Peoples,0,2023-01-01
+idaho,Businesses,69,2023-01-01
+idaho,Hotels and Other Lodgings,0,2023-01-01
+idaho,Healthcare,"4,055",2023-01-01
+idaho,Senior Facilities/Communities,95,2023-01-01
+idaho,Disability/AFN Organizations,168,2023-01-01
+idaho,Non-Profit Organizations,406,2023-01-01
+idaho,Neighborhood Groups,0,2023-01-01
+idaho,Preparedness Organizations,6,2023-01-01
+idaho,Faith-based Organizations,"2,100",2023-01-01
+idaho,"Museums, Libraries, Parks, etc.",0,2023-01-01
+idaho,Volunteer/Service Clubs,0,2023-01-01
+idaho,Youth Organizations,50,2023-01-01
+idaho,Animal Shelter/Service Providers,0,2023-01-01
+idaho,Agriculture/Livestock Sector,0,2023-01-01
+idaho,Volunteer Radio Groups,6,2023-01-01
+idaho,Science/Engineering Organizations,100,2023-01-01
+idaho,Media Organizations,0,2023-01-01
+idaho,Other,4,2023-01-01
+montana,Individuals/Families,54,2023-01-01
+montana,Childcare and Pre-Schools,165,2023-01-01
+montana,K-12 Schools and Districts,"63,032",2023-01-01
+montana,Colleges and Universities,"18,625",2023-01-01
+montana,Local Government,283,2023-01-01
+montana,State Government,"7,737",2023-01-01
+montana,Federal/National Government (Including Military),24,2023-01-01
+montana,Tribes/Indigenous Peoples,0,2023-01-01
+montana,Businesses,"3,920",2023-01-01
+montana,Hotels and Other Lodgings,0,2023-01-01
+montana,Healthcare,"4,321",2023-01-01
+montana,Senior Facilities/Communities,411,2023-01-01
+montana,Disability/AFN Organizations,0,2023-01-01
+montana,Non-Profit Organizations,210,2023-01-01
+montana,Neighborhood Groups,0,2023-01-01
+montana,Preparedness Organizations,70,2023-01-01
+montana,Faith-based Organizations,0,2023-01-01
+montana,"Museums, Libraries, Parks, etc.",35,2023-01-01
+montana,Volunteer/Service Clubs,0,2023-01-01
+montana,Youth Organizations,0,2023-01-01
+montana,Animal Shelter/Service Providers,0,2023-01-01
+montana,Agriculture/Livestock Sector,0,2023-01-01
+montana,Volunteer Radio Groups,127,2023-01-01
+montana,Science/Engineering Organizations,0,2023-01-01
+montana,Media Organizations,0,2023-01-01
+montana,Other,0,2023-01-01
+nevada,Individuals/Families,248,2023-01-01
+nevada,Childcare and Pre-Schools,771,2023-01-01
+nevada,K-12 Schools and Districts,"484,791",2023-01-01
+nevada,Colleges and Universities,"81,760",2023-01-01
+nevada,Local Government,"5,988",2023-01-01
+nevada,State Government,"3,776",2023-01-01
+nevada,Federal/National Government (Including Military),88,2023-01-01
+nevada,Tribes/Indigenous Peoples,427,2023-01-01
+nevada,Businesses,"2,478",2023-01-01
+nevada,Hotels and Other Lodgings,200,2023-01-01
+nevada,Healthcare,"14,835",2023-01-01
+nevada,Senior Facilities/Communities,251,2023-01-01
+nevada,Disability/AFN Organizations,10,2023-01-01
+nevada,Non-Profit Organizations,139,2023-01-01
+nevada,Neighborhood Groups,0,2023-01-01
+nevada,Preparedness Organizations,596,2023-01-01
+nevada,Faith-based Organizations,0,2023-01-01
+nevada,"Museums, Libraries, Parks, etc.",28,2023-01-01
+nevada,Volunteer/Service Clubs,0,2023-01-01
+nevada,Youth Organizations,0,2023-01-01
+nevada,Animal Shelter/Service Providers,0,2023-01-01
+nevada,Agriculture/Livestock Sector,0,2023-01-01
+nevada,Volunteer Radio Groups,22,2023-01-01
+nevada,Science/Engineering Organizations,25,2023-01-01
+nevada,Media Organizations,75,2023-01-01
+nevada,Other,162,2023-01-01
+newmexico,Individuals/Families,50,2023-01-01
+newmexico,Childcare and Pre-Schools,0,2023-01-01
+newmexico,K-12 Schools and Districts,314,2023-01-01
+newmexico,Colleges and Universities,"5,300",2023-01-01
+newmexico,Local Government,"1,532",2023-01-01
+newmexico,State Government,70,2023-01-01
+newmexico,Federal/National Government (Including Military),283,2023-01-01
+newmexico,Tribes/Indigenous Peoples,0,2023-01-01
+newmexico,Businesses,216,2023-01-01
+newmexico,Hotels and Other Lodgings,0,2023-01-01
+newmexico,Healthcare,591,2023-01-01
+newmexico,Senior Facilities/Communities,0,2023-01-01
+newmexico,Disability/AFN Organizations,0,2023-01-01
+newmexico,Non-Profit Organizations,10,2023-01-01
+newmexico,Neighborhood Groups,0,2023-01-01
+newmexico,Preparedness Organizations,20,2023-01-01
+newmexico,Faith-based Organizations,0,2023-01-01
+newmexico,"Museums, Libraries, Parks, etc.",0,2023-01-01
+newmexico,Volunteer/Service Clubs,5,2023-01-01
+newmexico,Youth Organizations,0,2023-01-01
+newmexico,Animal Shelter/Service Providers,0,2023-01-01
+newmexico,Agriculture/Livestock Sector,2,2023-01-01
+newmexico,Volunteer Radio Groups,10,2023-01-01
+newmexico,Science/Engineering Organizations,0,2023-01-01
+newmexico,Media Organizations,0,2023-01-01
+newmexico,Other,0,2023-01-01
+northeast,Individuals/Families,205,2023-01-01
+northeast,Childcare and Pre-Schools,"2,732",2023-01-01
+northeast,K-12 Schools and Districts,"121,000",2023-01-01
+northeast,Colleges and Universities,"9,751",2023-01-01
+northeast,Local Government,677,2023-01-01
+northeast,State Government,88,2023-01-01
+northeast,Federal/National Government (Including Military),"5,017",2023-01-01
+northeast,Tribes/Indigenous Peoples,0,2023-01-01
+northeast,Businesses,"3,844",2023-01-01
+northeast,Hotels and Other Lodgings,0,2023-01-01
+northeast,Healthcare,"1,399",2023-01-01
+northeast,Senior Facilities/Communities,765,2023-01-01
+northeast,Disability/AFN Organizations,97,2023-01-01
+northeast,Non-Profit Organizations,362,2023-01-01
+northeast,Neighborhood Groups,25,2023-01-01
+northeast,Preparedness Organizations,"18,157",2023-01-01
+northeast,Faith-based Organizations,0,2023-01-01
+northeast,"Museums, Libraries, Parks, etc.",0,2023-01-01
+northeast,Volunteer/Service Clubs,55,2023-01-01
+northeast,Youth Organizations,0,2023-01-01
+northeast,Animal Shelter/Service Providers,200,2023-01-01
+northeast,Agriculture/Livestock Sector,0,2023-01-01
+northeast,Volunteer Radio Groups,38,2023-01-01
+northeast,Science/Engineering Organizations,"2,000",2023-01-01
+northeast,Media Organizations,0,2023-01-01
+northeast,Other,69,2023-01-01
+oregon,Individuals/Families,"1,794",2023-01-01
+oregon,Childcare and Pre-Schools,"3,702",2023-01-01
+oregon,K-12 Schools and Districts,"347,967",2023-01-01
+oregon,Colleges and Universities,"61,295",2023-01-01
+oregon,Local Government,"18,878",2023-01-01
+oregon,State Government,"19,308",2023-01-01
+oregon,Federal/National Government (Including Military),"1,977",2023-01-01
+oregon,Tribes/Indigenous Peoples,511,2023-01-01
+oregon,Businesses,"51,175",2023-01-01
+oregon,Hotels and Other Lodgings,275,2023-01-01
+oregon,Healthcare,"29,393",2023-01-01
+oregon,Senior Facilities/Communities,"4,425",2023-01-01
+oregon,Disability/AFN Organizations,128,2023-01-01
+oregon,Non-Profit Organizations,"5,447",2023-01-01
+oregon,Neighborhood Groups,"1,255",2023-01-01
+oregon,Preparedness Organizations,"1,515",2023-01-01
+oregon,Faith-based Organizations,75,2023-01-01
+oregon,"Museums, Libraries, Parks, etc.",581,2023-01-01
+oregon,Volunteer/Service Clubs,40,2023-01-01
+oregon,Youth Organizations,85,2023-01-01
+oregon,Animal Shelter/Service Providers,0,2023-01-01
+oregon,Agriculture/Livestock Sector,89,2023-01-01
+oregon,Volunteer Radio Groups,109,2023-01-01
+oregon,Science/Engineering Organizations,152,2023-01-01
+oregon,Media Organizations,"5,082",2023-01-01
+oregon,Other,"1,856",2023-01-01
+puertorico,Individuals/Families,648,2023-01-01
+puertorico,Childcare and Pre-Schools,"8,285",2023-01-01
+puertorico,K-12 Schools and Districts,"168,897",2023-01-01
+puertorico,Colleges and Universities,"101,349",2023-01-01
+puertorico,Local Government,"8,319",2023-01-01
+puertorico,State Government,"10,687",2023-01-01
+puertorico,Federal/National Government (Including Military),"1,740",2023-01-01
+puertorico,Businesses,"17,680",2023-01-01
+puertorico,Hotels and Other Lodgings,641,2023-01-01
+puertorico,Healthcare,"15,102",2023-01-01
+puertorico,Senior Facilities/Communities,"1,164",2023-01-01
+puertorico,Disability/AFN Organizations,106,2023-01-01
+puertorico,Non-Profit Organizations,"3,713",2023-01-01
+puertorico,Neighborhood Groups,557,2023-01-01
+puertorico,Preparedness Organizations,317,2023-01-01
+puertorico,Faith-based Organizations,60,2023-01-01
+puertorico,"Museums, Libraries, Parks, etc.",90,2023-01-01
+puertorico,Volunteer/Service Clubs,20,2023-01-01
+puertorico,Youth Organizations,380,2023-01-01
+puertorico,Animal Shelter/Service Providers,0,2023-01-01
+puertorico,Agriculture/Livestock Sector,685,2023-01-01
+puertorico,Volunteer Radio Groups,302,2023-01-01
+puertorico,Science/Engineering Organizations,143,2023-01-01
+puertorico,Media Organizations,14,2023-01-01
+puertorico,Other,"8,582",2023-01-01
+southeast,Individuals/Families,"1,345",2023-01-01
+southeast,Childcare and Pre-Schools,"5,506",2023-01-01
+southeast,K-12 Schools and Districts,"1,674,721",2023-01-01
+southeast,Colleges and Universities,"223,457",2023-01-01
+southeast,Local Government,"51,895",2023-01-01
+southeast,State Government,"34,304",2023-01-01
+southeast,Federal/National Government (Including Military),"112,664",2023-01-01
+southeast,Tribes/Indigenous Peoples,0,2023-01-01
+southeast,Businesses,"7,201",2023-01-01
+southeast,Hotels and Other Lodgings,0,2023-01-01
+southeast,Healthcare,"89,117",2023-01-01
+southeast,Senior Facilities/Communities,"2,290",2023-01-01
+southeast,Disability/AFN Organizations,"1,197",2023-01-01
+southeast,Non-Profit Organizations,"2,221",2023-01-01
+southeast,Neighborhood Groups,394,2023-01-01
+southeast,Preparedness Organizations,"1,072",2023-01-01
+southeast,Faith-based Organizations,336,2023-01-01
+southeast,"Museums, Libraries, Parks, etc.",240,2023-01-01
+southeast,Volunteer/Service Clubs,62,2023-01-01
+southeast,Youth Organizations,30,2023-01-01
+southeast,Animal Shelter/Service Providers,0,2023-01-01
+southeast,Agriculture/Livestock Sector,10,2023-01-01
+southeast,Volunteer Radio Groups,54,2023-01-01
+southeast,Science/Engineering Organizations,26,2023-01-01
+southeast,Media Organizations,57,2023-01-01
+southeast,Other,641,2023-01-01
+texas,Individuals/Families,129,2023-01-01
+texas,Childcare and Pre-Schools,18,2023-01-01
+texas,K-12 Schools and Districts,"1,070",2023-01-01
+texas,Colleges and Universities,156,2023-01-01
+texas,Local Government,16,2023-01-01
+texas,State Government,45,2023-01-01
+texas,Federal/National Government (Including Military),833,2023-01-01
+texas,Tribes/Indigenous Peoples,0,2023-01-01
+texas,Businesses,847,2023-01-01
+texas,Hotels and Other Lodgings,0,2023-01-01
+texas,Healthcare,"1,181",2023-01-01
+texas,Senior Facilities/Communities,8,2023-01-01
+texas,Disability/AFN Organizations,0,2023-01-01
+texas,Non-Profit Organizations,49,2023-01-01
+texas,Neighborhood Groups,0,2023-01-01
+texas,Preparedness Organizations,65,2023-01-01
+texas,Faith-based Organizations,0,2023-01-01
+texas,"Museums, Libraries, Parks, etc.",0,2023-01-01
+texas,Volunteer/Service Clubs,1,2023-01-01
+texas,Youth Organizations,30,2023-01-01
+texas,Animal Shelter/Service Providers,0,2023-01-01
+texas,Agriculture/Livestock Sector,0,2023-01-01
+texas,Volunteer Radio Groups,24,2023-01-01
+texas,Science/Engineering Organizations,0,2023-01-01
+texas,Media Organizations,0,2023-01-01
+texas,Other,0,2023-01-01
+uppermidwest,Individuals/Families,57,2023-01-01
+uppermidwest,Childcare and Pre-Schools,118,2023-01-01
+uppermidwest,K-12 Schools and Districts,634,2023-01-01
+uppermidwest,Colleges and Universities,0,2023-01-01
+uppermidwest,Local Government,5,2023-01-01
+uppermidwest,State Government,0,2023-01-01
+uppermidwest,Federal/National Government (Including Military),"1,603",2023-01-01
+uppermidwest,Tribes/Indigenous Peoples,40,2023-01-01
+uppermidwest,Businesses,0,2023-01-01
+uppermidwest,Hotels and Other Lodgings,0,2023-01-01
+uppermidwest,Healthcare,483,2023-01-01
+uppermidwest,Senior Facilities/Communities,162,2023-01-01
+uppermidwest,Disability/AFN Organizations,0,2023-01-01
+uppermidwest,Non-Profit Organizations,5,2023-01-01
+uppermidwest,Neighborhood Groups,0,2023-01-01
+uppermidwest,Preparedness Organizations,0,2023-01-01
+uppermidwest,Faith-based Organizations,0,2023-01-01
+uppermidwest,"Museums, Libraries, Parks, etc.",0,2023-01-01
+uppermidwest,Volunteer/Service Clubs,0,2023-01-01
+uppermidwest,Youth Organizations,0,2023-01-01
+uppermidwest,Animal Shelter/Service Providers,0,2023-01-01
+uppermidwest,Agriculture/Livestock Sector,0,2023-01-01
+uppermidwest,Volunteer Radio Groups,5,2023-01-01
+uppermidwest,Science/Engineering Organizations,0,2023-01-01
+uppermidwest,Media Organizations,4,2023-01-01
+uppermidwest,Other,0,2023-01-01
+usvi,Individuals/Families,364,2023-01-01
+usvi,Childcare and Pre-Schools,210,2023-01-01
+usvi,K-12 Schools and Districts,"10,212",2023-01-01
+usvi,Colleges and Universities,0,2023-01-01
+usvi,Local Government,"4,108",2023-01-01
+usvi,State Government,203,2023-01-01
+usvi,Federal/National Government (Including Military),375,2023-01-01
+usvi,Businesses,698,2023-01-01
+usvi,Hotels and Other Lodgings,0,2023-01-01
+usvi,Healthcare,362,2023-01-01
+usvi,Senior Facilities/Communities,0,2023-01-01
+usvi,Disability/AFN Organizations,0,2023-01-01
+usvi,Non-Profit Organizations,48,2023-01-01
+usvi,Neighborhood Groups,0,2023-01-01
+usvi,Preparedness Organizations,20,2023-01-01
+usvi,Faith-based Organizations,0,2023-01-01
+usvi,"Museums, Libraries, Parks, etc.",0,2023-01-01
+usvi,Volunteer/Service Clubs,0,2023-01-01
+usvi,Youth Organizations,72,2023-01-01
+usvi,Animal Shelter/Service Providers,0,2023-01-01
+usvi,Agriculture/Livestock Sector,0,2023-01-01
+usvi,Volunteer Radio Groups,0,2023-01-01
+usvi,Science/Engineering Organizations,15,2023-01-01
+usvi,Media Organizations,34,2023-01-01
+usvi,Other,53,2023-01-01
+utah,Individuals/Families,260,2023-01-01
+utah,Childcare and Pre-Schools,"1,098",2023-01-01
+utah,K-12 Schools and Districts,"176,011",2023-01-01
+utah,Colleges and Universities,"42,300",2023-01-01
+utah,Local Government,"3,756",2023-01-01
+utah,State Government,"1,846",2023-01-01
+utah,Federal/National Government (Including Military),30,2023-01-01
+utah,Tribes/Indigenous Peoples,0,2023-01-01
+utah,Businesses,"2,862",2023-01-01
+utah,Hotels and Other Lodgings,0,2023-01-01
+utah,Healthcare,"1,652",2023-01-01
+utah,Senior Facilities/Communities,220,2023-01-01
+utah,Disability/AFN Organizations,0,2023-01-01
+utah,Non-Profit Organizations,748,2023-01-01
+utah,Neighborhood Groups,800,2023-01-01
+utah,Preparedness Organizations,220,2023-01-01
+utah,Faith-based Organizations,"2,400",2023-01-01
+utah,"Museums, Libraries, Parks, etc.",0,2023-01-01
+utah,Volunteer/Service Clubs,20,2023-01-01
+utah,Youth Organizations,0,2023-01-01
+utah,Animal Shelter/Service Providers,0,2023-01-01
+utah,Agriculture/Livestock Sector,0,2023-01-01
+utah,Volunteer Radio Groups,86,2023-01-01
+utah,Science/Engineering Organizations,0,2023-01-01
+utah,Media Organizations,0,2023-01-01
+utah,Other,0,2023-01-01
+washington,Individuals/Families,"2,965",2023-01-01
+washington,Childcare and Pre-Schools,"11,188",2023-01-01
+washington,K-12 Schools and Districts,"869,627",2023-01-01
+washington,Colleges and Universities,"170,744",2023-01-01
+washington,Local Government,"36,913",2023-01-01
+washington,State Government,"27,856",2023-01-01
+washington,Federal/National Government (Including Military),"98,582",2023-01-01
+washington,Tribes/Indigenous Peoples,"2,690",2023-01-01
+washington,Businesses,"37,108",2023-01-01
+washington,Hotels and Other Lodgings,74,2023-01-01
+washington,Healthcare,"111,460",2023-01-01
+washington,Senior Facilities/Communities,"5,530",2023-01-01
+washington,Disability/AFN Organizations,617,2023-01-01
+washington,Non-Profit Organizations,"8,247",2023-01-01
+washington,Neighborhood Groups,"1,547",2023-01-01
+washington,Preparedness Organizations,655,2023-01-01
+washington,Faith-based Organizations,546,2023-01-01
+washington,"Museums, Libraries, Parks, etc.","1,188",2023-01-01
+washington,Volunteer/Service Clubs,65,2023-01-01
+washington,Youth Organizations,175,2023-01-01
+washington,Animal Shelter/Service Providers,75,2023-01-01
+washington,Agriculture/Livestock Sector,518,2023-01-01
+washington,Volunteer Radio Groups,271,2023-01-01
+washington,Science/Engineering Organizations,715,2023-01-01
+washington,Media Organizations,305,2023-01-01
+washington,Other,502,2023-01-01
+wyoming,Individuals/Families,101,2023-01-01
+wyoming,Childcare and Pre-Schools,394,2023-01-01
+wyoming,K-12 Schools and Districts,"12,327",2023-01-01
+wyoming,Colleges and Universities,0,2023-01-01
+wyoming,Local Government,946,2023-01-01
+wyoming,State Government,257,2023-01-01
+wyoming,Federal/National Government (Including Military),813,2023-01-01
+wyoming,Tribes/Indigenous Peoples,0,2023-01-01
+wyoming,Businesses,66,2023-01-01
+wyoming,Hotels and Other Lodgings,4,2023-01-01
+wyoming,Healthcare,754,2023-01-01
+wyoming,Senior Facilities/Communities,0,2023-01-01
+wyoming,Disability/AFN Organizations,0,2023-01-01
+wyoming,Non-Profit Organizations,38,2023-01-01
+wyoming,Neighborhood Groups,0,2023-01-01
+wyoming,Preparedness Organizations,80,2023-01-01
+wyoming,Faith-based Organizations,0,2023-01-01
+wyoming,"Museums, Libraries, Parks, etc.",2,2023-01-01
+wyoming,Volunteer/Service Clubs,0,2023-01-01
+wyoming,Youth Organizations,0,2023-01-01
+wyoming,Animal Shelter/Service Providers,0,2023-01-01
+wyoming,Agriculture/Livestock Sector,0,2023-01-01
+wyoming,Volunteer Radio Groups,0,2023-01-01
+wyoming,Science/Engineering Organizations,0,2023-01-01
+wyoming,Media Organizations,0,2023-01-01
+wyoming,Other,20,2023-01-01
+yukon,Individuals/Families,32,2023-01-01
+yukon,Childcare and Pre-Schools,0,2023-01-01
+yukon,K-12 Schools and Districts,"3,507",2023-01-01
+yukon,Colleges and Universities,0,2023-01-01
+yukon,Local Government,155,2023-01-01
+yukon,Federal/National Government (Including Military),18,2023-01-01
+yukon,Businesses,9,2023-01-01
+yukon,Hotels and Other Lodgings,0,2023-01-01
+yukon,Healthcare,12,2023-01-01
+yukon,Senior Facilities/Communities,0,2023-01-01
+yukon,Disability/AFN Organizations,8,2023-01-01
+yukon,Non-Profit Organizations,20,2023-01-01
+yukon,Preparedness Organizations,0,2023-01-01
+yukon,Faith-based Organizations,0,2023-01-01
+yukon,"Museums, Libraries, Parks, etc.",0,2023-01-01
+yukon,Volunteer/Service Clubs,0,2023-01-01
+yukon,Youth Organizations,0,2023-01-01
+yukon,Animal Shelter/Service Providers,0,2023-01-01
+yukon,Agriculture/Livestock Sector,0,2023-01-01
+yukon,Volunteer Radio Groups,0,2023-01-01
+yukon,Science/Engineering Organizations,0,2023-01-01
+yukon,Media Organizations,0,2023-01-01
+yukon,Other,0,2023-01-01

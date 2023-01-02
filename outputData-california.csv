@@ -2515,3 +2515,79 @@ california,San Diego,"816,717",2022-12-25
 california,    San Diego,"816,717",2022-12-25
 california,Multiple Counties,"37,386",2022-12-25
 california,Other (non-CA),0,2022-12-25
+state,category,number,date
+california,"<tr><td align=""left""><b>Category</b></td><td align=""right"" width=""120""><b>Participants</b>
+</td></tr>","Participants
+",2023-01-01
+california,"Participation totals for each 
+			area",Total,2023-01-01
+california,North Coast,"66,862",2023-01-01
+california,    Del Norte,"12,752",2023-01-01
+california,    Humboldt,"33,669",2023-01-01
+california,    Lake,"9,716",2023-01-01
+california,    Mendocino,"10,725",2023-01-01
+california,Shasta Cascade,"22,904",2023-01-01
+california,    Butte,"9,248",2023-01-01
+california,    Glenn,610,2023-01-01
+california,    Lassen,"2,061",2023-01-01
+california,    Modoc,99,2023-01-01
+california,    Plumas,970,2023-01-01
+california,    Shasta,"6,671",2023-01-01
+california,    Sierra,0,2023-01-01
+california,    Siskiyou,"2,033",2023-01-01
+california,    Tehama,985,2023-01-01
+california,    Trinity,227,2023-01-01
+california,Bay Area,"1,432,189",2023-01-01
+california,    Alameda,"362,363",2023-01-01
+california,    Contra Costa,"158,832",2023-01-01
+california,    Marin,"35,013",2023-01-01
+california,    Napa,"10,761",2023-01-01
+california,    San Francisco,"287,132",2023-01-01
+california,    San Mateo,"98,039",2023-01-01
+california,    Santa Clara,"345,791",2023-01-01
+california,    Solano,"56,903",2023-01-01
+california,    Sonoma,"77,355",2023-01-01
+california,Delta Sierra,"482,720",2023-01-01
+california,    Alpine,84,2023-01-01
+california,    Amador,"1,013",2023-01-01
+california,    Calaveras,"1,275",2023-01-01
+california,    Colusa,"1,149",2023-01-01
+california,    El Dorado,"8,116",2023-01-01
+california,    Nevada,"6,539",2023-01-01
+california,    Placer,"22,936",2023-01-01
+california,    Sacramento,"245,284",2023-01-01
+california,    San Joaquin,"56,923",2023-01-01
+california,    Stanislaus,"93,039",2023-01-01
+california,    Sutter,"1,620",2023-01-01
+california,    Tuolumne,"8,147",2023-01-01
+california,    Yolo,"25,137",2023-01-01
+california,    Yuba,"11,458",2023-01-01
+california,Inyo-Mono,"3,288",2023-01-01
+california,    Inyo,"2,363",2023-01-01
+california,    Mono,925,2023-01-01
+california,Central Valley South,"617,254",2023-01-01
+california,    Fresno,"182,376",2023-01-01
+california,    Kern,"261,854",2023-01-01
+california,    Kings,"9,374",2023-01-01
+california,    Madera,"28,918",2023-01-01
+california,    Mariposa,15,2023-01-01
+california,    Merced,"59,003",2023-01-01
+california,    Tulare,"75,714",2023-01-01
+california,Central Coast,"474,766",2023-01-01
+california,    Monterey,"111,954",2023-01-01
+california,    San Benito,"8,250",2023-01-01
+california,    San Luis Obispo,"25,595",2023-01-01
+california,    Santa Barbara,"118,566",2023-01-01
+california,    Santa Cruz,"77,906",2023-01-01
+california,    Ventura,"132,495",2023-01-01
+california,Southern California Coast,"4,198,214",2023-01-01
+california,    Los Angeles,"3,313,187",2023-01-01
+california,    Orange,"885,027",2023-01-01
+california,Inland Southern California,"1,438,792",2023-01-01
+california,    Imperial,"47,415",2023-01-01
+california,    Riverside,"662,332",2023-01-01
+california,    San Bernardino,"729,045",2023-01-01
+california,San Diego,"816,717",2023-01-01
+california,    San Diego,"816,717",2023-01-01
+california,Multiple Counties,"37,386",2023-01-01
+california,Other (non-CA),0,2023-01-01
