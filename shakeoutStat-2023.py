@@ -99,8 +99,8 @@ california={}
                         california[region]={row:tmp_list[1]}
                     dictFind[region]={row:tmp_list[1]}
             except:
-                pass'''
-    '''try:
+                pass
+    try:
         if len(table) > 1:
             for cat in colUnused:
                 try:
