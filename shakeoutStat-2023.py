@@ -41,7 +41,7 @@ for region in cenList:
     print(example_variable)
     for number in range(1,len(example_variable)):
         area=example_variable[number]["area"]
-        for key, value in example_variable.items():
+        for key, value in example_variable[number].items():
             line.append([region,area,key,str(value),today])
 retStr = 'state,area,category,number,date'
 csvList = ['state','area','category','number','date']
