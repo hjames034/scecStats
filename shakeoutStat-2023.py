@@ -1,6 +1,7 @@
 #find potential websites that have problems
 from bs4 import BeautifulSoup, SoupStrainer, Comment
 from selenium import webdriver
+import execjs
 import requests
 import urllib.request
 import sys
@@ -17,6 +18,7 @@ today = (datetime.now() - timedelta(days = 1 )).date()
 driver_path = ChromeDriverManager(chrome_type=ChromeType.CHROMIUM,version="107.0.5304.18").install()
 chrome_options = Options()
 chrome_options.add_argument("--headless")
+
 # chrome_options.headless = True # also works
 browser = webdriver.Chrome(driver_path,options=chrome_options)
 data = urllib.request.urlopen('https://www.shakeout.org')
@@ -29,12 +31,38 @@ for lister in soup.findAll("ul", {"id": "region_list"}):
         url = link.get('href')
         cenList.append(url.split('/')[-2])
 print(len(cenList))
-
+line=[]
+# Extract the value of the "example_variable" variable
+for region in cenList:
+    data = urllib.request.urlopen('https://www.shakeout.org/'+region+'/areaData.js')
+    js_code = data.text
+    context = execjs.compile(js_code)
+    example_variable = context.eval("areaData")
+    print(example_variable)
+    for number in range(len(example_variable)):
+        area=example_variable[number]["area"]
+        for key, value in example_variable.items():
+            line.append([region,area,key,str(value),today])
+retStr = 'state,area,category,number,date'
+csvList = ['state','area','category','number','date']
+toWriteAg=True
+try:
+    with open('outputData-agg.csv','r') as reader:
+        if retStr in reader:
+            toWriteAg = False
+except:
+    pass
+with open('outputData-agg.csv', 'a+') as csv_file:
+    csvwriter = csv.writer(csv_file, delimiter=',')
+    if toWriteCa:
+        csvwriter.writerow(csvList)
+    for row in range(len(line)):
+        csvwriter.writerow([i for i in line[row]])
+          
+'''
 cols = ["Individuals/Families","individuals","Childcare and Pre-Schools","K-12 Schools and Districts","Colleges and Universities","Local Government","State Government","Federal/National Government (Including Military)","Tribes/Indigenous Peoples","Businesses","Hotels and Other Lodgings","Healthcare","Senior Facilities/Communities","Disability/AFN Organizations","Non-Profit Organizations","Neighborhood Groups","Preparedness Organizations","Faith-based Organizations","Museums, Libraries, Parks, etc.","Volunteer/Service Clubs","Youth Organizations","Animal Shelter/Service Providers","Agriculture/Livestock Sector","Volunteer Radio Groups","Science/Engineering Organizations","Media Organizations","Other","Tribes/Rancherias",'date'] # list of categories
 dictionaryReturn = {}
 california={}
-for region in cenList:
-    browser.get('https://www.shakeout.org/'+region+'/areaData.js')
     html = browser.page_source
     soup = BeautifulSoup(html,'html.parser')
     comments = soup.findAll(text=lambda text:isinstance(text, Comment))
@@ -71,7 +99,7 @@ for region in cenList:
                         california[region]={row:tmp_list[1]}
                     dictFind[region]={row:tmp_list[1]}
             except:
-                pass
+                pass'''
     '''try:
         if len(table) > 1:
             for cat in colUnused:
@@ -97,7 +125,7 @@ retStr = df.to_csv(index=False)
 r=open('testStat.csv','w',encoding="utf-8")
 r.write(retStr)
 r.close()'''
-retStr = 'state,category,number,date'
+'''retStr = 'state,category,number,date'
 csvList = ['state','category','number','date']
 toWriteAg=True
 toWriteCo=True
@@ -154,7 +182,7 @@ with open('outputData-commons.csv', 'a+') as csv_file:
             if 'individuals' in item:
                 csvwriter.writerow([session, 'Individuals/Families', dictFind[session][item],today])
             else:
-                csvwriter.writerow([session, item, dictFind[session][item],today])
+                csvwriter.writerow([session, item, dictFind[session][item],today])'''
 
 '''
 failedPage= {}
