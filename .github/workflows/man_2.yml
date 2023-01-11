@@ -1,4 +1,4 @@
-  name: man_2
+    name: man_2
     
     on: workflow_dispatch
     jobs:
@@ -24,6 +24,8 @@
             run: |
                 git config --global user.name "hjames034"
                 git config --global user.email "hjames034@gmail.com"
+
                 git add -A
                 git commit -m "updated text"
                 git push
+          
