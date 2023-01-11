@@ -39,7 +39,7 @@ for region in cenList:
     context = execjs.compile(js_code)
     example_variable = context.eval("areaData")
     print(example_variable)
-    for number in range(len(example_variable)):
+    for number in range(1,len(example_variable)):
         area=example_variable[number]["area"]
         for key, value in example_variable.items():
             line.append([region,area,key,str(value),today])
