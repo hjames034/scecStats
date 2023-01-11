@@ -1,0 +1,29 @@
+  name: man_2
+    
+    on: workflow_dispatch
+    jobs:
+      build:
+        runs-on: ubuntu-latest
+    
+        steps:
+          - name: checkout repo content
+            uses: actions/checkout@v3 # checkout the repository content to github runner.
+          - name: setup python
+            uses: actions/setup-python@v2
+            with:
+              python-version: 3.8 #install the python needed
+          - name: Setup Chrome
+            uses: browser-actions/setup-chrome@latest
+          - name: install required module
+            run: |
+              pip install -r requirements.txt
+          - name: execute py script # run the run.py to get the latest data
+            run: |
+              python shakeoutStat.py
+          - name: Commit and push changes
+            run: |
+                git config --global user.name "hjames034"
+                git config --global user.email "hjames034@gmail.com"
+                git add -A
+                git commit -m "updated text"
+                git push
