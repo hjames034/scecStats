@@ -34,15 +34,18 @@ print(len(cenList))
 line=[]
 # Extract the value of the "example_variable" variable
 for region in cenList:
-    data = requests.get('https://www.shakeout.org/'+region+'/areaData.js')
-    js_code = data.text
-    context = execjs.compile(js_code)
-    example_variable = context.eval("areaData")
-    print(example_variable)
-    for number in range(1,len(example_variable)):
-        area=example_variable[number]["area"]
-        for key, value in example_variable[number].items():
-            line.append([region,area,key,str(value),today])
+    try:
+        data = requests.get('https://www.shakeout.org/'+region+'/areaData.js')
+        js_code = data.text
+        context = execjs.compile(js_code)
+        example_variable = context.eval("areaData")
+        print(example_variable)
+        for number in range(1,len(example_variable)):
+            area=example_variable[number]["area"]
+            for key, value in example_variable[number].items():
+                line.append([region,area,key,str(value),today])
+    except:
+        print('error in',region)
 retStr = 'state,area,category,number,date'
 csvList = ['state','area','category','number','date']
 toWriteAg=True
