@@ -34,7 +34,7 @@ print(len(cenList))
 line=[]
 # Extract the value of the "example_variable" variable
 for region in cenList:
-    data = urllib.request.urlopen('https://www.shakeout.org/'+region+'/areaData.js')
+    data = requests.get('https://www.shakeout.org/'+region+'/areaData.js')
     js_code = data.text
     context = execjs.compile(js_code)
     example_variable = context.eval("areaData")
