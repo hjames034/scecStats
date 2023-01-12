@@ -53,7 +53,7 @@ for region in cenList:
             my_variable = key
 
             # Open the JSON file and convert it to a dictionary
-            with open('example.json') as json_file:
+            with open('dictionary.json') as json_file:
                 data = json.load(json_file)
 
             # Check if the variable is in the keys of the dictionary
