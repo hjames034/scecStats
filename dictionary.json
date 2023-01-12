@@ -1,8 +1,7 @@
-{"individualParticipants": 'Individuals/Families',
-"childParticipants": 'Childcare and Pre-Schools',
-'schoolParticipants': 'K-12 Schools and Districts',
-"Other","Tribes/Rancherias",'date'
-"collegeParticipants": 'Colleges and Universities',
+{"individualParticipants": "Individuals/Families",
+"childParticipants": "Childcare and Pre-Schools",
+'schoolParticipants': "K-12 Schools and Districts",
+"collegeParticipants": "Colleges and Universities",
 "localParticipants": "Local Government",
 "stateParticipants": "State Government",
 "federalParticipants": "Federal/National Government (Including Military)",
