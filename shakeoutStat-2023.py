@@ -2,6 +2,7 @@
 from bs4 import BeautifulSoup, SoupStrainer, Comment
 from selenium import webdriver
 import execjs
+import traceback
 import json
 import requests
 import urllib.request
@@ -40,6 +41,7 @@ for region in cenList:
         js_code = data.text
     except:
         print('error in'+region)
+        traceback.print_exc()
         continue
     context = execjs.compile(js_code)
     example_variable = context.eval("areaData")
