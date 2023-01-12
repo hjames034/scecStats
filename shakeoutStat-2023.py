@@ -39,12 +39,12 @@ for region in cenList:
     try:
         data = requests.get('https://www.shakeout.org/'+region+'/areaData.js')
         js_code = data.text
+        context = execjs.compile(js_code)
+        example_variable = context.eval("areaData")
     except:
         print('error in'+region)
         traceback.print_exc()
         continue
-    context = execjs.compile(js_code)
-    example_variable = context.eval("areaData")
     #print(example_variable)
     for number in range(1,len(example_variable)):
         area=example_variable[number]["area"]
