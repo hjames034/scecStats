@@ -38,28 +38,29 @@ for region in cenList:
     try:
         data = requests.get('https://www.shakeout.org/'+region+'/areaData.js')
         js_code = data.text
-        context = execjs.compile(js_code)
-        example_variable = context.eval("areaData")
-        #print(example_variable)
-        for number in range(1,len(example_variable)):
-            area=example_variable[number]["area"]
-            for key, value in example_variable[number].items():
-                # Declare the variable
-                my_variable = key
-
-                # Open the JSON file and convert it to a dictionary
-                with open('example.json') as json_file:
-                    data = json.load(json_file)
-
-                # Check if the variable is in the keys of the dictionary
-                if my_variable in data.keys():
-                    # Replace the value of the variable with the corresponding value in the dictionary
-                    my_variable = data[my_variable]
-                    line.append([region,area,my_variable,str(value),today])
-                else:
-                    pass
     except:
-        print('error in',region)
+        print('error in'+region)
+        continue
+    context = execjs.compile(js_code)
+    example_variable = context.eval("areaData")
+    #print(example_variable)
+    for number in range(1,len(example_variable)):
+        area=example_variable[number]["area"]
+        for key, value in example_variable[number].items():
+            # Declare the variable
+            my_variable = key
+
+            # Open the JSON file and convert it to a dictionary
+            with open('example.json') as json_file:
+                data = json.load(json_file)
+
+            # Check if the variable is in the keys of the dictionary
+            if my_variable in data.keys():
+                # Replace the value of the variable with the corresponding value in the dictionary
+                my_variable = data[my_variable]
+                line.append([region,area,my_variable,str(value),today])
+            else:
+                pass
 retStr = 'state,area,category,number,date'
 csvList = ['state','area','category','number','date']
 toWriteAg=True
