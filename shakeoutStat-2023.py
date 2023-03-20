@@ -15,14 +15,14 @@ from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.core.utils import ChromeType
 from datetime import date,timedelta,datetime
 
-today = (datetime.now() - timedelta(days = 1 )).date()
+today = (datetime.now().date()) # - timedelta(days = 1 )).date()
 
-driver_path = ChromeDriverManager(chrome_type=ChromeType.CHROMIUM,version="111.0.5563.64").install()
-chrome_options = Options()
-chrome_options.add_argument("--headless")
+#driver_path = ChromeDriverManager(chrome_type=ChromeType.CHROMIUM,version="111.0.5563.64").install()
+#chrome_options = Options()
+#chrome_options.add_argument("--headless")
 
 # chrome_options.headless = True # also works
-browser = webdriver.Chrome(driver_path,options=chrome_options)
+#browser = webdriver.Chrome(driver_path,options=chrome_options)
 data = urllib.request.urlopen('https://www.shakeout.org')
 soup = BeautifulSoup(data,'html.parser')
 cenList=[]
