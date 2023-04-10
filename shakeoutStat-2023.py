@@ -16,7 +16,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.core.utils import ChromeType'''
 from datetime import date,timedelta,datetime
 
-today = (datetime.now().date() + timedelta(days = 1 )).date()
+today = (datetime.now()+ timedelta(days = 1 )).date()
 
 #driver_path = ChromeDriverManager(chrome_type=ChromeType.CHROMIUM,version="111.0.5563.64").install()
 #chrome_options = Options()
