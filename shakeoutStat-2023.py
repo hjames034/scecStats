@@ -1,4 +1,4 @@
-#find potential websites that have problems
+#find potential websites that have problems - full coverage
 from bs4 import BeautifulSoup, SoupStrainer, Comment
 from selenium import webdriver
 import execjs
