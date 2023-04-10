@@ -87,11 +87,11 @@ for i in var_list:
                 categoryCounter += 1
                 # Replace the value of the variable with the corresponding value in the dictionary
                 my_variable = data[my_variable]
-                line.append([varlist[:2],'All',my_variable,str(value),today])
+                line.append([i[:2],'All',my_variable,str(value),today])
             else:
                 pass
         if categoryCounter == 0: #if there is no category data listed, then just add the total
-            line.append([varlist[:2],'All','All Categories',str(example_variable['total']),today])
+            line.append([i[:2],'All','All Categories',str(example_variable['total']),today])
     except:
         pass
         
