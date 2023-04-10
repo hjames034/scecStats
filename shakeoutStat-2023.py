@@ -10,9 +10,10 @@ import sys
 import csv
 import re
 import pandas as pd
+'''
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
-from webdriver_manager.core.utils import ChromeType
+from webdriver_manager.core.utils import ChromeType'''
 from datetime import date,timedelta,datetime
 
 today = (datetime.now().date()) # - timedelta(days = 1 )).date()
@@ -31,13 +32,14 @@ catSpecific={}
 for lister in soup.findAll("ul", {"id": "region_list"}):
     for link in lister.findAll("a"):
         url = link.get('href')
-        cenList.append(url.split('/')[-2])
+        cenList.append('/'+url.split('/')[-2]+'/')
 print(len(cenList))
 line=[]
 # Extract the value of the "example_variable" variable
+cenList.append('')
 for region in cenList:
     try:
-        data = requests.get('https://www.shakeout.org/'+region+'/areaData.js')
+        data = requests.get('https://www.shakeout.org'+region+'areaData.js')
         js_code = data.text
         context = execjs.compile(js_code)
         example_variable = context.eval("areaData")
