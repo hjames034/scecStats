@@ -49,7 +49,7 @@ for region in cenList:
         continue
     #print(example_variable)
     for number in range(1,len(example_variable)):
-        area=example_variable[number]["area"]
+        area=example_variable[number]["area"] # go through each area listed in areaData
         for key, value in example_variable[number].items():
             # Declare the variable
             my_variable = key
@@ -58,13 +58,45 @@ for region in cenList:
             with open('dictionary.json') as json_file:
                 data = json.load(json_file)
 
-            # Check if the variable is in the keys of the dictionary
+            # Check if the variable is in the keys of the dictionary (category by category area breakdown)
             if my_variable in data.keys():
                 # Replace the value of the variable with the corresponding value in the dictionary
                 my_variable = data[my_variable]
                 line.append([region,area,my_variable,str(value),today])
             else:
                 pass
+#manual data recording for specific regions: jp,nz,qc,bc
+data = requests.get('https://www.shakeout.org/stats_test/globalAreaData.js')
+js_code = data.text
+context = execjs.compile(js_code)
+var_list = ['jp_regionwide','nz_regionwide','qc_regionwide','bc_regionwide']
+for i in var_list:
+    try:
+        example_variable = context.eval(i)
+        categoryCounter = 0
+        for key, value in example_variable.items():
+            # Declare the variable
+            my_variable = key
+
+            # Open the JSON file and convert it to a dictionary
+            with open('dictionary.json') as json_file:
+                data = json.load(json_file)
+
+            # Check if the variable is in the keys of the dictionary (category by category area breakdown)
+            if my_variable in data.keys():
+                categoryCounter += 1
+                # Replace the value of the variable with the corresponding value in the dictionary
+                my_variable = data[my_variable]
+                line.append([region,'All',my_variable,str(value),today])
+            else:
+                pass
+        if categoryCounter == 0: #if there is no category data listed, then just add the total
+            line.append([region,'All','All Categories',str(example_variable['total']),today])
+    except:
+        pass
+        
+        
+    
 retStr = 'state,area,category,number,date'
 csvList = ['state','area','category','number','date']
 toWriteAg=True
