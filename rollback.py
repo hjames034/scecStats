@@ -4,7 +4,7 @@ import csv
 # specify the file name, date column index, and target date
 file_name = 'outputData-agg.csv'
 date_column_index = 4  # assuming the date column is the 3rd column (0-based indexing)
-target_date = '2023-04-10'
+target_date = '2023-04-11'
 
 # read the original CSV file into a list of lists
 with open(file_name, 'r') as file:
