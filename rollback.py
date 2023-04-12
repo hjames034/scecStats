@@ -12,7 +12,14 @@ with open(file_name, 'r') as file:
     rows = [row for row in reader]
 
 # filter out rows with the target date in the date column
-filtered_rows = [row for row in rows if row[date_column_index] != target_date]
+for row in rows:
+    try:
+        if row[date_column_index] != target_date:
+            filtered_rows.append(row)
+    except:
+        print(row)
+        raise Exception("fail")
+#filtered_rows = [row for row in rows if row[date_column_index] != target_date]
 
 # overwrite the original CSV file with the filtered rows
 with open(file_name, 'w', newline='') as file:
