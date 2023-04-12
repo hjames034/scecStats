@@ -3,7 +3,7 @@ import csv
 
 # specify the file name, date column index, and target date
 file_name = 'outputData-agg.csv'
-date_column_index = 3  # assuming the date column is the 3rd column (0-based indexing)
+date_column_index = 4  # assuming the date column is the 3rd column (0-based indexing)
 target_date = '2023-04-11'
 
 # read the original CSV file into a list of lists
@@ -12,6 +12,7 @@ with open(file_name, 'r') as file:
     rows = [row for row in reader]
 
 # filter out rows with the target date in the date column
+filtered_rows=[]
 for row in rows:
     try:
         if row[date_column_index] != target_date:
