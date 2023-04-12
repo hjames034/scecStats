@@ -18,7 +18,6 @@ for row in rows:
             filtered_rows.append(row)
     except:
         print(row)
-        raise Exception("fail")
 #filtered_rows = [row for row in rows if row[date_column_index] != target_date]
 
 # overwrite the original CSV file with the filtered rows
