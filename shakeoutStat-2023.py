@@ -93,6 +93,7 @@ for i in var_list:
         if categoryCounter == 0: #if there is no category data listed, then just add the total
             line.append([i[:2],'All','All Categories',str(example_variable['total']),today])
     except:
+        print('error in'+var_list)
         pass
         
         
