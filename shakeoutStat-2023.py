@@ -45,7 +45,7 @@ for region in cenList:
         example_variable = context.eval("areaData")
     except:
         print('error in'+region)
-        traceback.print_exc()
+        #traceback.print_exc()
         continue
     #print(example_variable)
     for number in range(1,len(example_variable)):
